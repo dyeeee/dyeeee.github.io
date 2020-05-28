@@ -42,6 +42,18 @@
       </tags>
   </entry>
   <entry>
+    <title>test page</title>
+    <url>/2019/11/16/test-page/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>hide</tag>
+        <tag>随便写写</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>可视化程序设计1-6章复习</title>
     <url>/2019/12/12/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A11-6%E7%AB%A0%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<blockquote>
@@ -448,18 +460,6 @@
       <tags>
         <tag>软件工程</tag>
         <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test page</title>
-    <url>/2019/11/16/test-page/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Test</category>
-      </categories>
-      <tags>
-        <tag>hide</tag>
-        <tag>随便写写</tag>
       </tags>
   </entry>
   <entry>
