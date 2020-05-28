@@ -30,18 +30,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>test page</title>
-    <url>/2019/11/16/test-page/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Test</category>
-      </categories>
-      <tags>
-        <tag>hide</tag>
-        <tag>随便写写</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>tags test page</title>
     <url>/2019/11/17/tags-test-page/</url>
     <content><![CDATA[]]></content>
@@ -460,6 +448,18 @@
       <tags>
         <tag>软件工程</tag>
         <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test page</title>
+    <url>/2019/11/16/test-page/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>hide</tag>
+        <tag>随便写写</tag>
       </tags>
   </entry>
   <entry>
