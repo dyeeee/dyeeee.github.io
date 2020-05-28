@@ -1819,7 +1819,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff9fd1;
+  background: #2a3dee;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3035,5 +3035,5 @@ header.post-header {
   padding: 15px;
   -webkit-box-shadow: 6px 10px 12px rgba(180,180,180,0.6);
   -moz-box-shadow: 0px 0px 20px rgba(202,203,204,0.7);
-  background: rgba(230,230,230,0.7) none repeat scroll !important;
+  background: rgba(255,255,255,0.7) none repeat scroll !important;
 }
