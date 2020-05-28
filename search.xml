@@ -463,47 +463,6 @@
       </tags>
   </entry>
   <entry>
-    <title>操作系统概念第2章 — 操作系统结构</title>
-    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<blockquote>
-<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
-<li>用户界面 User Interface <ul>
-<li>命令行界面 Command-line Interface，CLI</li>
-<li>Batch界面</li>
-<li>图形用户界面 Graphical User Interface，GUI</li>
-</ul>
-</li>
-<li>程序执行 Program Execution<ul>
-<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
-</ul>
-</li>
-<li>IO操作 I/O Operation</li>
-<li>文件系统操作 File-system manipulation</li>
-<li>通信 Communications</li>
-<li>错误检测 Error detection</li>
-</ul>
-<ul>
-<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
-<li>资源分配 Resource Allocation</li>
-<li>统计 Accounting</li>
-<li>保护和安全 Protection and security</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
-        <tag>操作系统</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>可视化程序设计8-15章复习</title>
     <url>/2019/12/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A18-15%E7%AB%A0%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<hr>
@@ -752,6 +711,47 @@
       <tags>
         <tag>软件工程</tag>
         <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>操作系统概念第2章 — 操作系统结构</title>
+    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<blockquote>
+<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
+<li>用户界面 User Interface <ul>
+<li>命令行界面 Command-line Interface，CLI</li>
+<li>Batch界面</li>
+<li>图形用户界面 Graphical User Interface，GUI</li>
+</ul>
+</li>
+<li>程序执行 Program Execution<ul>
+<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
+</ul>
+</li>
+<li>IO操作 I/O Operation</li>
+<li>文件系统操作 File-system manipulation</li>
+<li>通信 Communications</li>
+<li>错误检测 Error detection</li>
+</ul>
+<ul>
+<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
+<li>资源分配 Resource Allocation</li>
+<li>统计 Accounting</li>
+<li>保护和安全 Protection and security</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>操作系统</tag>
       </tags>
   </entry>
 </search>
