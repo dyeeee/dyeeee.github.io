@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>figtest</title>
-    <url>/2020/05/27/figtest/</url>
-    <content><![CDATA[<p><img src="/2020/05/27/figtest/123.JPG" alt="app"></p>
-]]></content>
-      <tags>
-        <tag>hide</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2019/11/16/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -30,8 +21,29 @@
 ]]></content>
   </entry>
   <entry>
+    <title>figtest</title>
+    <url>/2020/05/27/figtest/</url>
+    <content><![CDATA[<p><img src="/2020/05/27/figtest/123.JPG" alt="app"></p>
+]]></content>
+      <tags>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>tags test page</title>
     <url>/2019/11/17/tags-test-page/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>hide</tag>
+        <tag>随便写写</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test page</title>
+    <url>/2019/11/16/test-page/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>Test</category>
@@ -157,15 +169,49 @@
       </tags>
   </entry>
   <entry>
-    <title>test page</title>
-    <url>/2019/11/16/test-page/</url>
+    <title>人工智能-局部搜索（Local Search）</title>
+    <url>/2020/05/30/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD-%E5%B1%80%E9%83%A8%E6%90%9C%E7%B4%A2%EF%BC%88Local-Search%EF%BC%89/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>操作系统概念第2章 — 操作系统结构</title>
+    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<blockquote>
+<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
+<li>用户界面 User Interface <ul>
+<li>命令行界面 Command-line Interface，CLI</li>
+<li>Batch界面</li>
+<li>图形用户界面 Graphical User Interface，GUI</li>
+</ul>
+</li>
+<li>程序执行 Program Execution<ul>
+<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
+</ul>
+</li>
+<li>IO操作 I/O Operation</li>
+<li>文件系统操作 File-system manipulation</li>
+<li>通信 Communications</li>
+<li>错误检测 Error detection</li>
+</ul>
+<ul>
+<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
+<li>资源分配 Resource Allocation</li>
+<li>统计 Accounting</li>
+<li>保护和安全 Protection and security</li>
+</ul>
+</li>
+</ul>
+]]></content>
       <categories>
-        <category>Test</category>
+        <category>操作系统</category>
       </categories>
       <tags>
-        <tag>hide</tag>
-        <tag>随便写写</tag>
+        <tag>总结</tag>
+        <tag>操作系统</tag>
       </tags>
   </entry>
   <entry>
@@ -711,47 +757,6 @@
       <tags>
         <tag>软件工程</tag>
         <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>操作系统概念第2章 — 操作系统结构</title>
-    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<blockquote>
-<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
-<li>用户界面 User Interface <ul>
-<li>命令行界面 Command-line Interface，CLI</li>
-<li>Batch界面</li>
-<li>图形用户界面 Graphical User Interface，GUI</li>
-</ul>
-</li>
-<li>程序执行 Program Execution<ul>
-<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
-</ul>
-</li>
-<li>IO操作 I/O Operation</li>
-<li>文件系统操作 File-system manipulation</li>
-<li>通信 Communications</li>
-<li>错误检测 Error detection</li>
-</ul>
-<ul>
-<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
-<li>资源分配 Resource Allocation</li>
-<li>统计 Accounting</li>
-<li>保护和安全 Protection and security</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
-        <tag>操作系统</tag>
       </tags>
   </entry>
 </search>

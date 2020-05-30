@@ -1819,7 +1819,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff4983;
+  background: #068eff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2745,13 +2745,13 @@ pre .javascript .function {
   padding-right: 260px;
 }
 header {
-  width: 90% !important;
+  width: 85% !important;
 }
 header.post-header {
   width: auto !important;
 }
 .container .main-inner {
-  width: 90%;
+  width: 85%;
 }
 .content-wrap {
   width: calc(100% - 260px);
@@ -3033,7 +3033,10 @@ header.post-header {
   margin-top: 15px;
   margin-bottom: 25px;
   padding: 10px;
-  -webkit-box-shadow: 3px 3px 20px rgba(180,180,180,0.6);
-  -moz-box-shadow: 3px 3px 20px rgba(180,180,180,0.6);
-  background: rgba(255,255,255,0.8) none repeat scroll !important;
+  -webkit-box-shadow: 0px 3px 5px rgba(180,180,180,0.6);
+  -moz-box-shadow: 0px 3px 5px rgba(180,180,180,0.6);
+}
+.post-block {
+  background: rgba(255,255,255,0.84);
+  padding: 15px;
 }
