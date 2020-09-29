@@ -15,6 +15,8 @@
     <content><![CDATA[<blockquote>
 <p>用hexo记录一下hexo常用的操作和命令</p>
 </blockquote>
+<a id="more"></a>
+
 <h3 id="1-文章"><a href="#1-文章" class="headerlink" title="1. 文章"></a>1. 文章</h3><h4 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h4><p>在hexo文件夹下进入控制台，输入：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &apos;title标题&apos;</span><br></pre></td></tr></table></figure>
 <p>新建文章后会在<code>hexo文件夹/source/_post</code>路径下创建title.md和title文件夹。.md文件即为文章内容，配置了添加图片后可以在文件夹中放入图片，在.md中插入图片。</p>
@@ -29,6 +31,7 @@
 <hr>
 <h4 id="删除文章"><a href="#删除文章" class="headerlink" title="删除文章"></a>删除文章</h4><p>在source/_post路径下删除对应为文章标题和文件夹，然后进行一次生成和部署</p>
 <hr>
+<h4 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h4><p>在文章中添加<br><code>&lt;!--more--&gt;</code><br>hexo网页只显示预览之前的内容</p>
 <hr>
 <h3 id="2-命令"><a href="#2-命令" class="headerlink" title="2. 命令"></a>2. 命令</h3><h4 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h4><p>创建文章后生成静态文件，此时可以在本地服务器预览：</p>
 <p><code>hexo generate</code> ，可以简写为 <code>hexo g</code></p>
