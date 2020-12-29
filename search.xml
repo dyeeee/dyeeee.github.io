@@ -7,6 +7,35 @@
 ]]></content>
   </entry>
   <entry>
+    <title>figtest</title>
+    <url>/2020/05/27/figtest/</url>
+    <content><![CDATA[<p><img src="/2020/05/27/figtest/123.JPG" alt="app"></p>
+]]></content>
+      <tags>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/11/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo的常用操作</title>
     <url>/2020/09/29/hexo%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<blockquote>
@@ -55,26 +84,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2019/11/16/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<a id="more"></a>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>tags test page</title>
     <url>/2019/11/17/tags-test-page/</url>
     <content><![CDATA[]]></content>
@@ -82,17 +91,8 @@
         <category>Test</category>
       </categories>
       <tags>
+        <tag>hide</tag>
         <tag>随便写写</tag>
-        <tag>hide</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>figtest</title>
-    <url>/2020/05/27/figtest/</url>
-    <content><![CDATA[<p><img src="/2020/05/27/figtest/123.JPG" alt="app"></p>
-]]></content>
-      <tags>
-        <tag>hide</tag>
       </tags>
   </entry>
   <entry>
@@ -103,8 +103,164 @@
         <category>Test</category>
       </categories>
       <tags>
-        <tag>随便写写</tag>
         <tag>hide</tag>
+        <tag>随便写写</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>可视化程序设计1-6章复习</title>
+    <url>/2019/12/12/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A11-6%E7%AB%A0%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<blockquote>
+<p>可视化程序设计1-6章问答题<br>基于 <em>Software Engineering A PRACTITIONER’S APPROACH 8th</em>  <em>软件工程：实践者的研究方法</em>  </p>
+</blockquote>
+<hr>
+<ul>
+<li><strong>PART 0 序</strong></li>
+</ul>
+<ol>
+<li><a href="#1">CH1 软件的本质</a></li>
+<li><a href="#2">CH2 软件工程</a><br>&nbsp;</li>
+</ol>
+<ul>
+<li><strong>PART 1 软件过程 THE SOFTWARE PROCESS</strong></li>
+</ul>
+<ol>
+<li><a href="#4">CH3 软件过程结构</a></li>
+<li><a href="#5">CH4 过程模型</a></li>
+<li><a href="#6">CH5 敏捷开发</a></li>
+</ol>
+<hr>
+<a id="more"></a>
+
+<h2 id="CHAPTER-1-THE-NATURE-OF-SOFTWARE-软件的本质"><a href="#CHAPTER-1-THE-NATURE-OF-SOFTWARE-软件的本质" class="headerlink" title="CHAPTER 1 THE NATURE OF SOFTWARE 软件的本质"></a><span id="1">CHAPTER 1 THE NATURE OF SOFTWARE 软件的本质</span></h2><ol>
+<li>How does software differ from the artifacts produced by other engineering disciplines?<br>软件与其他工程学科产生的工件有何不同？<br>Answer (Section 1.1):<br>Software is both a product and a vehicle for delivering a product. As a product, software is an information transformer. As a vehicle for delivering a product, software serves as a basis for computer control, communication, and creation of other programs.<br>软件既是产品，又是交付产品的工具。作为产品，软件是一种信息转换器。作为交付产品的工具，软件是计算机控制，通信和创建其他程序的基础。</li>
+</ol>
+<ol start="2">
+<li><p>How do software characteristics differ from hardware characteristics?<br>软件特性与硬件特性有何不同？<br>Answer (Section 1.2):<br>Software is developed, not manufactured. Software does not wear out. Most software is custom built, not assembled out of components.<br>软件是开发的，不是制造的。软件不会磨损。大多数软件是定制构建的，而不是由组件组装而成的。</p>
+</li>
+<li><p>Explain what is wrong with the notion that computer software does not need to evolve over time.<br>解释一下计算机软件不需要随着时间的推移而发展的想法有什么问题。<br>Answer (Section1.1):<br>Computer software must be revised as errors are discovered and corrected. Software must be updated to accommodate changes in the computing environment. Many times a customer will request changes to add new functions to an existing product or to accommodate changes in the business environment. Sometimes an older system will need to be reengineered to provide benefits to the user in a modern context. The bottom line is that software that does not evolve will eventually become unusable.<br>发现并纠正错误后，必须对计算机软件进行修订。必须更新软件以适应计算环境的变化。客户常常会请求更改以将新功能添加到现有产品或适应业务环境中的更改。有时，将需要对旧系统进行重新设计，以在现代环境中为用户提供收益。最重要的是，不发展的软件最终将变得不可用。</p>
+</li>
+</ol>
+<h2 id="CHAPTER-2-SOFTWARE-ENGINEERING-软件工程"><a href="#CHAPTER-2-SOFTWARE-ENGINEERING-软件工程" class="headerlink" title="CHAPTER 2 SOFTWARE ENGINEERING  软件工程"></a><span id="2">CHAPTER 2 SOFTWARE ENGINEERING  软件工程</span></h2><ol>
+<li>List three areas in which process models may differ from one another.<br>列出过程模型（过程的适应性）可能彼此不同的三个领域。<br>Answer (Section 2.2):<ol>
+<li>Overall flow and level of interdependencies among tasks</li>
+<li>Degree to which work tasks are defined within each framework activity</li>
+<li>Degree to which work products are identified and required</li>
+<li>Manner in which quality assurance activities are applied</li>
+<li>Manner in which project tracking and control activities are applied</li>
+<li>Overall degree of detail and rigor of process description</li>
+<li>Degree to which stakeholders are involved in the project</li>
+<li>Level of autonomy given to project team</li>
+<li>Degree to which team organization and roles are prescribed</li>
+<li>任务之间的总体流程和相互依赖程度</li>
+<li>每个框架活动中定义工作任务的程度</li>
+<li>确定和要求工作产品的程度</li>
+<li>实施质量保证活动的方式</li>
+<li>应用项目跟踪和控制活动的方式</li>
+<li>总体细节程度和过程描述的严格性</li>
+<li>利益相关者参与项目的程度</li>
+<li>给予项目团队的自主权</li>
+<li>规定团队组织和角色的程度</li>
+</ol>
+</li>
+</ol>
+<ol start="2">
+<li>Describe how Polya’s problem solving principles describe the essence of engineering practice?<br>描述Polya的问题解决原理如何描述工程实践的本质？<br>Answer (Section 2.3):<br>· Understand the problem (communication and analysis)<br>· Plan a solution (modeling and design)<br>· Carry out the plan (code generation)<br>· Examine the result for accuracy (testing and quality assurance)</li>
+</ol>
+<p>· 了解问题（沟通和分析）<br>· 计划解决方案（建模和设计）<br>· 执行计划（代码生成）<br>· 检查结果的准确性（测试和质量保证）</p>
+<ol start="3">
+<li>Describe the relationships among software engineering process, methods, and tools.<br>描述软件工程过程，方法和工具之间的关系。<br>Answer (Section2.1):<br>Software process defines the framework that must be established for effective delivery of software engineering technology, by providing a context by which the software engineering methods are applied. Software engineering methods provide the technical how-to’s for building software. Software engineering tools provide automated or semi-automated support for software engineering process and methods.<br>软件过程通过提供应用软件工程方法的上下文来定义为有效交付软件工程技术而必须建立的框架。软件工程方法提供了构建软件的技术指导。软件工程工具为软件工程过程和方法提供自动或半自动支持。</li>
+</ol>
+<hr>
+<p> <strong>PART ONE THE SOFTWARE PROCESS 软件过程</strong></p>
+<h2 id="CHAPTER-3-SOFTWARE-PROCESS-STRUCTURE-软件过程结构"><a href="#CHAPTER-3-SOFTWARE-PROCESS-STRUCTURE-软件过程结构" class="headerlink" title="CHAPTER 3 SOFTWARE PROCESS STRUCTURE 软件过程结构"></a><span id="3">CHAPTER 3 SOFTWARE PROCESS STRUCTURE 软件过程结构</span></h2><ol>
+<li><p>How are tasks, actions, and activities related to software process models? 任务，动作和活动与软件过程模型如何相关？<br>Answer (Section 3.1):<br>A software process is made up of activities. Each activity is defined by a set of engineering actions. Each activity is defined by a task set that indentifies the work items to be completed.<br>软件过程由活动组成。每个活动由一组工程动作定义。每个活动都由一个任务集定义，该任务集标识要完成的工作项。</p>
+</li>
+<li><p>How does software team choose the task set for a particular project? 软件团队如何选择特定项目的任务集？<br>Answer (Section 3.3):<br>The software chooses the task set based on the characteristics of the team, the project, and the problem to be solved.<br>该软件根据团队，项目和要解决的问题的特征来选择任务集。</p>
+</li>
+<li><p>How can process patterns assist a development team build software products efficiently? 流程模式如何帮助开发团队有效地构建软件产品？<br>Answer (Section 3.4):<br>Process patterns are proven solutions to commonly encountered development problems. If developers can recognize that that this is problem seen before they can use a previously known means of solving it, without have to take the time to invent a new solution.<br>流程模式是公认的解决常见开发问题的解决方案。如果开发人员可以认识到这是一个问题，那么他们可以使用以前已知的解决方法，而不必花费时间来发明新的解决方案。</p>
+</li>
+<li><p>Why it important for software processes to be agile? 为什么软件流程敏捷至关重要？<br>Answer (Chapter 3 Overview):<br>Software process provides the stability, control, and organization to an activity to prevent it from becoming chaotic. Yet, modern software processes must only demand the activities, controls, and work products that are appropriate for the team and product to be produced – to ensure that it can accommodate changes easily and deliver a high quality software product.<br>软件过程为活动提供稳定性，控制力和组织性，以防止其变得混乱。但是，现代软件过程必须只要求适合于要生产的团队和产品的活动，控制和工作产品，以确保它可以轻松地适应变更并交付高质量的软件产品。</p>
+</li>
+</ol>
+<h2 id="CHAPTER-4-PROCESS-MODELS-过程模型"><a href="#CHAPTER-4-PROCESS-MODELS-过程模型" class="headerlink" title="CHAPTER 4 PROCESS MODELS 过程模型"></a><span id="4">CHAPTER 4 PROCESS MODELS 过程模型</span></h2><ol>
+<li><p>Describe the phases of the prototyping model for software development?<br>描述软件开发原型模型的各个阶段？<br>Answer (Section 4.1.3):<br>Requirements are gathered by having the customer and developer meet and identify whatever objectives and requirements they can. Quick design follows, focusing on representation of the software that will be visible to the customer. A prototype is constructed by the developer and evaluated by the customer and used to refine the requirements. Iteration occurs and the prototype is tuned to satisfy the customer’s needs.<br>通过让客户和开发人员满足并确定他们可以达到的任何目标和要求来收集需求。随后进行快速设计，重点是对客户可见的软件表示形式。原型由开发人员构建并由客户评估，用于完善需求。进行迭代，并对原型进行调整以满足客户的需求。</p>
+</li>
+<li><p>What are the primary advantages of the component-based process model for software engineering?<br>基于组件的过程模型对软件工程的主要优势是什么？<br>Answer (Section 4.2.1):<br>Component-based process models promote software reuse and reusability and can result in:  70% reduction in development cycle times, 84% reduction in project costs, and 70% increase in productivity.<br>基于组件的过程模型可提高软件的重用性和可重用性，并可以导致：开发周期时间减少70％，项目成本减少84％，生产力提高70％。</p>
+</li>
+<li><p>Why has the Personal Software Process not been widely adopted by industry?<br>为什么个人软件过程没有被业界广泛采用？<br>Answer (Section 2.6.1):<br>PSP is intellectually challenging and demands a level of commitment (e.g. lengthy and costly training required) that is not always possible to obtain. In addition the required level of measurement is culturally hard for many software practitioners.<br>PSP在智力上具有挑战性，需要一定程度的承诺（例如，需要冗长而昂贵的培训），而这种承诺并非总是可以实现的。另外，对于许多软件从业人员而言，所需的度量水平在文化上是困难的。</p>
+</li>
+<li><p>Why are evolutionary models considered by many to be the best approach to software development in a modern context?<br>为什么许多人认为演化模型是现代环境下软件开发的最佳方法？<br>Answer (Section 4.1.3):<br>Because time lines for the development of modern software are getting shorter and shorter, customers are becoming more diverse (making the understanding of requirements even harder), and changes to requirements are becoming even more common (before delivery), we need a way to provide incremental or evolutionary delivery. The evolutionary process accommodates uncertainty better than most process models, allows the delivery of partial solutions in an orderly and planned manner, and most importantly, reflects what really happens when complex systems are built.<br>由于开发现代软件的时间表越来越短，客户变得越来越多样化（使对需求的理解更加困难），对需求的更改也变得越来越普遍（交付之前），我们需要一种方法来提供增量或渐进式投放。演化过程比大多数过程模型更好地适应不确定性，允许以有序和计划的方式交付部分解决方案，最重要的是，它反映了构建复杂系统时实际发生的情况。</p>
+</li>
+</ol>
+<h2 id="CHAPTER-5-AGILE-DEVELOPMENT-敏捷开发"><a href="#CHAPTER-5-AGILE-DEVELOPMENT-敏捷开发" class="headerlink" title="CHAPTER 5 AGILE DEVELOPMENT 敏捷开发"></a><span id="5">CHAPTER 5 AGILE DEVELOPMENT 敏捷开发</span></h2><ol>
+<li><p>List the key issues stressed by an agile philosophy of software engineering.<br>列出敏捷软件工程哲学所强调的关键问题。<br>Answer (Section 5.7):<br>The importance of self-organizing teams<br>Communication and collaboration between team members and customers<br>Recognition that change represents opportunity<br>Emphasis on rapid delivery of software that satisfies the customer</p>
+</li>
+<li><p>What are the tradeoffs proposes by the “Manifesto for Agile Software Development”?<br>“敏捷软件开发宣言”提出的权衡是什么？<br>Answer (Section 5.1):<br>Individuals and interactions valued over processes and tools<br>Working software valued over comprehensive documentation<br>Customer collaboration valued over contract negotiation<br>Responding to change valued over following a plan<br>重视流程和工具的个人和互动<br>工作软件胜过完整的文档<br>客户合作比合同谈判更有价值<br>响应按照计划而重视的变更</p>
+</li>
+<li><p>Describe the role of customers and end-users on an agile process team?<br>描述客户和最终用户在敏捷流程团队中的角色？<br>Answer (Section 5.4):<br>Customers and end-users participate as full collaborators on agile process teams. They are the source of information used to create use cases and provided needed information on the business value of proposed software feature and functionality. They also provide much needed feedback on operational prototypes during incremental delivery of software increments.<br>客户和最终用户将作为正式合作者参与敏捷流程团队。它们是用于创建用例的信息源，并提供了有关拟议软件 功能的商业价值的必要信息。在软件增量的增量交付期间，它们还提供了有关操作原型的急需的反馈。</p>
+</li>
+<li><p>Describe the three key assumptions regarding software projects that every agile software process must address.<br>描述关于每个敏捷软件过程都必须解决的软件项目的三个关键假设。<br>Answer  (Section 5.3):<br>It is difficult to predict in advance which software requirements and customer priorities will change and which will not.<br>For many types of software design and construction must be interleaved, it is difficult to predict how much design is needed before construction can be used to prove the design.<br>Analysis, design, construction, and testing are not always predictable processes and this makes planning difficult.<br>很难预先预测哪些软件需求和客户优先级将发生变化，哪些不会发生变化。<br>对于许多类型的软件，必须交错进行设计和构造，因此很难预测在使用构造来证明设计之前需要多少设计。<br>分析，设计，构造和测试并非总是可预测的过程，这使计划变得困难。</p>
+</li>
+</ol>
+<h2 id="CHAPTER-6-HUMAN-ASPECTS-OF-SOFTWARE-ENGINEERING-软件工程人员"><a href="#CHAPTER-6-HUMAN-ASPECTS-OF-SOFTWARE-ENGINEERING-软件工程人员" class="headerlink" title="CHAPTER 6 HUMAN ASPECTS OF SOFTWARE ENGINEERING 软件工程人员"></a><span id="6">CHAPTER 6 HUMAN ASPECTS OF SOFTWARE ENGINEERING 软件工程人员</span></h2><ol>
+<li><p>List the key attributes of an effective software teams.<br>列出有效的软件团队的关键属性<br>Answer (Section 6.3):<br>Sense of purpose<br>Sense of involvement<br>Sense of trust<br>Sense of improvement<br>Diversity of team member skill sets<br>目的感<br>参与感<br>信任感<br>改善感<br>团队成员技能集的多样性</p>
+</li>
+<li><p>Describe the strengths and weaknesses of the random paradigm team structure?<br>请描述随机范式团队结构的优缺点？<br>Answer (Section 6.4):<br>The random paradigm depends on the initiative of individual team members. Good when innovation or technological breakthrough is needed. These teams struggle when orderly performance is required.<br>随机范式取决于团队成员的主动性。当需要创新或技术突破时很好。当需要有秩序的表现时，这些团队就会挣扎。</p>
+</li>
+<li><p>Describe the five values held by XP teams?<br>请描述XP团队所持有的五个价值观？<br>Answer (Section 6.5):<br>Communication – close informal verbal communication among team members and stakeholders and establishing meaning for metaphors as part of continuous feedback<br>Simplicity – design for immediate needs nor future needs<br>Feedback – derives from the implemented software, the customer, and other team members<br>Courage – the discipline to resist pressure to design for unspecified future requirements<br>Respect – among team members and stakeholders<br>交流–团队成员和利益相关者之间的非正式口头交流，并为隐喻建立意义，作为持续反馈的一部分<br>简便性–针对眼前需求或未来需求的设计<br>反馈–来自实施的软件，客户和其他团队成员<br>勇气–应对未指定未来需求的设计压力的纪律<br>尊重–团队成员和利益相关者之间</p>
+</li>
+<li><p>List environment characteristics that can be considered toxic to software teams.<br>列出对软件团队有害的环境特征。<br>Answer  (Section 6.3):<br>Frenzied work atmosphere<br>High frustration that causes friction among team members<br>Fragmented or poorly coordinated software process<br>Unclear definition of roles on the software team<br>Continuous and repeated exposure to failure<br>Differing and incompatible team member human traits<br>疯狂的工作氛围<br>挫败感高，导致团队成员之间产生摩擦<br>零散的或缺乏协调的软件流程<br>软件团队中角色的定义不明确<br>持续不断地遭受失败<br>团队成员不同且不相容的人格特质</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件工程</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>软件工程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>操作系统概念第2章 — 操作系统结构</title>
+    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<blockquote>
+<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
+<li>用户界面 User Interface <ul>
+<li>命令行界面 Command-line Interface，CLI</li>
+<li>Batch界面</li>
+<li>图形用户界面 Graphical User Interface，GUI</li>
+</ul>
+</li>
+<li>程序执行 Program Execution<ul>
+<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
+</ul>
+</li>
+<li>IO操作 I/O Operation</li>
+<li>文件系统操作 File-system manipulation</li>
+<li>通信 Communications</li>
+<li>错误检测 Error detection</li>
+</ul>
+<ul>
+<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
+<li>资源分配 Resource Allocation</li>
+<li>统计 Accounting</li>
+<li>保护和安全 Protection and security</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>操作系统</tag>
       </tags>
   </entry>
   <entry>
@@ -399,162 +555,6 @@
       <tags>
         <tag>总结</tag>
         <tag>软件工程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>可视化程序设计1-6章复习</title>
-    <url>/2019/12/12/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A11-6%E7%AB%A0%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<blockquote>
-<p>可视化程序设计1-6章问答题<br>基于 <em>Software Engineering A PRACTITIONER’S APPROACH 8th</em>  <em>软件工程：实践者的研究方法</em>  </p>
-</blockquote>
-<hr>
-<ul>
-<li><strong>PART 0 序</strong></li>
-</ul>
-<ol>
-<li><a href="#1">CH1 软件的本质</a></li>
-<li><a href="#2">CH2 软件工程</a><br>&nbsp;</li>
-</ol>
-<ul>
-<li><strong>PART 1 软件过程 THE SOFTWARE PROCESS</strong></li>
-</ul>
-<ol>
-<li><a href="#4">CH3 软件过程结构</a></li>
-<li><a href="#5">CH4 过程模型</a></li>
-<li><a href="#6">CH5 敏捷开发</a></li>
-</ol>
-<hr>
-<a id="more"></a>
-
-<h2 id="CHAPTER-1-THE-NATURE-OF-SOFTWARE-软件的本质"><a href="#CHAPTER-1-THE-NATURE-OF-SOFTWARE-软件的本质" class="headerlink" title="CHAPTER 1 THE NATURE OF SOFTWARE 软件的本质"></a><span id="1">CHAPTER 1 THE NATURE OF SOFTWARE 软件的本质</span></h2><ol>
-<li>How does software differ from the artifacts produced by other engineering disciplines?<br>软件与其他工程学科产生的工件有何不同？<br>Answer (Section 1.1):<br>Software is both a product and a vehicle for delivering a product. As a product, software is an information transformer. As a vehicle for delivering a product, software serves as a basis for computer control, communication, and creation of other programs.<br>软件既是产品，又是交付产品的工具。作为产品，软件是一种信息转换器。作为交付产品的工具，软件是计算机控制，通信和创建其他程序的基础。</li>
-</ol>
-<ol start="2">
-<li><p>How do software characteristics differ from hardware characteristics?<br>软件特性与硬件特性有何不同？<br>Answer (Section 1.2):<br>Software is developed, not manufactured. Software does not wear out. Most software is custom built, not assembled out of components.<br>软件是开发的，不是制造的。软件不会磨损。大多数软件是定制构建的，而不是由组件组装而成的。</p>
-</li>
-<li><p>Explain what is wrong with the notion that computer software does not need to evolve over time.<br>解释一下计算机软件不需要随着时间的推移而发展的想法有什么问题。<br>Answer (Section1.1):<br>Computer software must be revised as errors are discovered and corrected. Software must be updated to accommodate changes in the computing environment. Many times a customer will request changes to add new functions to an existing product or to accommodate changes in the business environment. Sometimes an older system will need to be reengineered to provide benefits to the user in a modern context. The bottom line is that software that does not evolve will eventually become unusable.<br>发现并纠正错误后，必须对计算机软件进行修订。必须更新软件以适应计算环境的变化。客户常常会请求更改以将新功能添加到现有产品或适应业务环境中的更改。有时，将需要对旧系统进行重新设计，以在现代环境中为用户提供收益。最重要的是，不发展的软件最终将变得不可用。</p>
-</li>
-</ol>
-<h2 id="CHAPTER-2-SOFTWARE-ENGINEERING-软件工程"><a href="#CHAPTER-2-SOFTWARE-ENGINEERING-软件工程" class="headerlink" title="CHAPTER 2 SOFTWARE ENGINEERING  软件工程"></a><span id="2">CHAPTER 2 SOFTWARE ENGINEERING  软件工程</span></h2><ol>
-<li>List three areas in which process models may differ from one another.<br>列出过程模型（过程的适应性）可能彼此不同的三个领域。<br>Answer (Section 2.2):<ol>
-<li>Overall flow and level of interdependencies among tasks</li>
-<li>Degree to which work tasks are defined within each framework activity</li>
-<li>Degree to which work products are identified and required</li>
-<li>Manner in which quality assurance activities are applied</li>
-<li>Manner in which project tracking and control activities are applied</li>
-<li>Overall degree of detail and rigor of process description</li>
-<li>Degree to which stakeholders are involved in the project</li>
-<li>Level of autonomy given to project team</li>
-<li>Degree to which team organization and roles are prescribed</li>
-<li>任务之间的总体流程和相互依赖程度</li>
-<li>每个框架活动中定义工作任务的程度</li>
-<li>确定和要求工作产品的程度</li>
-<li>实施质量保证活动的方式</li>
-<li>应用项目跟踪和控制活动的方式</li>
-<li>总体细节程度和过程描述的严格性</li>
-<li>利益相关者参与项目的程度</li>
-<li>给予项目团队的自主权</li>
-<li>规定团队组织和角色的程度</li>
-</ol>
-</li>
-</ol>
-<ol start="2">
-<li>Describe how Polya’s problem solving principles describe the essence of engineering practice?<br>描述Polya的问题解决原理如何描述工程实践的本质？<br>Answer (Section 2.3):<br>· Understand the problem (communication and analysis)<br>· Plan a solution (modeling and design)<br>· Carry out the plan (code generation)<br>· Examine the result for accuracy (testing and quality assurance)</li>
-</ol>
-<p>· 了解问题（沟通和分析）<br>· 计划解决方案（建模和设计）<br>· 执行计划（代码生成）<br>· 检查结果的准确性（测试和质量保证）</p>
-<ol start="3">
-<li>Describe the relationships among software engineering process, methods, and tools.<br>描述软件工程过程，方法和工具之间的关系。<br>Answer (Section2.1):<br>Software process defines the framework that must be established for effective delivery of software engineering technology, by providing a context by which the software engineering methods are applied. Software engineering methods provide the technical how-to’s for building software. Software engineering tools provide automated or semi-automated support for software engineering process and methods.<br>软件过程通过提供应用软件工程方法的上下文来定义为有效交付软件工程技术而必须建立的框架。软件工程方法提供了构建软件的技术指导。软件工程工具为软件工程过程和方法提供自动或半自动支持。</li>
-</ol>
-<hr>
-<p> <strong>PART ONE THE SOFTWARE PROCESS 软件过程</strong></p>
-<h2 id="CHAPTER-3-SOFTWARE-PROCESS-STRUCTURE-软件过程结构"><a href="#CHAPTER-3-SOFTWARE-PROCESS-STRUCTURE-软件过程结构" class="headerlink" title="CHAPTER 3 SOFTWARE PROCESS STRUCTURE 软件过程结构"></a><span id="3">CHAPTER 3 SOFTWARE PROCESS STRUCTURE 软件过程结构</span></h2><ol>
-<li><p>How are tasks, actions, and activities related to software process models? 任务，动作和活动与软件过程模型如何相关？<br>Answer (Section 3.1):<br>A software process is made up of activities. Each activity is defined by a set of engineering actions. Each activity is defined by a task set that indentifies the work items to be completed.<br>软件过程由活动组成。每个活动由一组工程动作定义。每个活动都由一个任务集定义，该任务集标识要完成的工作项。</p>
-</li>
-<li><p>How does software team choose the task set for a particular project? 软件团队如何选择特定项目的任务集？<br>Answer (Section 3.3):<br>The software chooses the task set based on the characteristics of the team, the project, and the problem to be solved.<br>该软件根据团队，项目和要解决的问题的特征来选择任务集。</p>
-</li>
-<li><p>How can process patterns assist a development team build software products efficiently? 流程模式如何帮助开发团队有效地构建软件产品？<br>Answer (Section 3.4):<br>Process patterns are proven solutions to commonly encountered development problems. If developers can recognize that that this is problem seen before they can use a previously known means of solving it, without have to take the time to invent a new solution.<br>流程模式是公认的解决常见开发问题的解决方案。如果开发人员可以认识到这是一个问题，那么他们可以使用以前已知的解决方法，而不必花费时间来发明新的解决方案。</p>
-</li>
-<li><p>Why it important for software processes to be agile? 为什么软件流程敏捷至关重要？<br>Answer (Chapter 3 Overview):<br>Software process provides the stability, control, and organization to an activity to prevent it from becoming chaotic. Yet, modern software processes must only demand the activities, controls, and work products that are appropriate for the team and product to be produced – to ensure that it can accommodate changes easily and deliver a high quality software product.<br>软件过程为活动提供稳定性，控制力和组织性，以防止其变得混乱。但是，现代软件过程必须只要求适合于要生产的团队和产品的活动，控制和工作产品，以确保它可以轻松地适应变更并交付高质量的软件产品。</p>
-</li>
-</ol>
-<h2 id="CHAPTER-4-PROCESS-MODELS-过程模型"><a href="#CHAPTER-4-PROCESS-MODELS-过程模型" class="headerlink" title="CHAPTER 4 PROCESS MODELS 过程模型"></a><span id="4">CHAPTER 4 PROCESS MODELS 过程模型</span></h2><ol>
-<li><p>Describe the phases of the prototyping model for software development?<br>描述软件开发原型模型的各个阶段？<br>Answer (Section 4.1.3):<br>Requirements are gathered by having the customer and developer meet and identify whatever objectives and requirements they can. Quick design follows, focusing on representation of the software that will be visible to the customer. A prototype is constructed by the developer and evaluated by the customer and used to refine the requirements. Iteration occurs and the prototype is tuned to satisfy the customer’s needs.<br>通过让客户和开发人员满足并确定他们可以达到的任何目标和要求来收集需求。随后进行快速设计，重点是对客户可见的软件表示形式。原型由开发人员构建并由客户评估，用于完善需求。进行迭代，并对原型进行调整以满足客户的需求。</p>
-</li>
-<li><p>What are the primary advantages of the component-based process model for software engineering?<br>基于组件的过程模型对软件工程的主要优势是什么？<br>Answer (Section 4.2.1):<br>Component-based process models promote software reuse and reusability and can result in:  70% reduction in development cycle times, 84% reduction in project costs, and 70% increase in productivity.<br>基于组件的过程模型可提高软件的重用性和可重用性，并可以导致：开发周期时间减少70％，项目成本减少84％，生产力提高70％。</p>
-</li>
-<li><p>Why has the Personal Software Process not been widely adopted by industry?<br>为什么个人软件过程没有被业界广泛采用？<br>Answer (Section 2.6.1):<br>PSP is intellectually challenging and demands a level of commitment (e.g. lengthy and costly training required) that is not always possible to obtain. In addition the required level of measurement is culturally hard for many software practitioners.<br>PSP在智力上具有挑战性，需要一定程度的承诺（例如，需要冗长而昂贵的培训），而这种承诺并非总是可以实现的。另外，对于许多软件从业人员而言，所需的度量水平在文化上是困难的。</p>
-</li>
-<li><p>Why are evolutionary models considered by many to be the best approach to software development in a modern context?<br>为什么许多人认为演化模型是现代环境下软件开发的最佳方法？<br>Answer (Section 4.1.3):<br>Because time lines for the development of modern software are getting shorter and shorter, customers are becoming more diverse (making the understanding of requirements even harder), and changes to requirements are becoming even more common (before delivery), we need a way to provide incremental or evolutionary delivery. The evolutionary process accommodates uncertainty better than most process models, allows the delivery of partial solutions in an orderly and planned manner, and most importantly, reflects what really happens when complex systems are built.<br>由于开发现代软件的时间表越来越短，客户变得越来越多样化（使对需求的理解更加困难），对需求的更改也变得越来越普遍（交付之前），我们需要一种方法来提供增量或渐进式投放。演化过程比大多数过程模型更好地适应不确定性，允许以有序和计划的方式交付部分解决方案，最重要的是，它反映了构建复杂系统时实际发生的情况。</p>
-</li>
-</ol>
-<h2 id="CHAPTER-5-AGILE-DEVELOPMENT-敏捷开发"><a href="#CHAPTER-5-AGILE-DEVELOPMENT-敏捷开发" class="headerlink" title="CHAPTER 5 AGILE DEVELOPMENT 敏捷开发"></a><span id="5">CHAPTER 5 AGILE DEVELOPMENT 敏捷开发</span></h2><ol>
-<li><p>List the key issues stressed by an agile philosophy of software engineering.<br>列出敏捷软件工程哲学所强调的关键问题。<br>Answer (Section 5.7):<br>The importance of self-organizing teams<br>Communication and collaboration between team members and customers<br>Recognition that change represents opportunity<br>Emphasis on rapid delivery of software that satisfies the customer</p>
-</li>
-<li><p>What are the tradeoffs proposes by the “Manifesto for Agile Software Development”?<br>“敏捷软件开发宣言”提出的权衡是什么？<br>Answer (Section 5.1):<br>Individuals and interactions valued over processes and tools<br>Working software valued over comprehensive documentation<br>Customer collaboration valued over contract negotiation<br>Responding to change valued over following a plan<br>重视流程和工具的个人和互动<br>工作软件胜过完整的文档<br>客户合作比合同谈判更有价值<br>响应按照计划而重视的变更</p>
-</li>
-<li><p>Describe the role of customers and end-users on an agile process team?<br>描述客户和最终用户在敏捷流程团队中的角色？<br>Answer (Section 5.4):<br>Customers and end-users participate as full collaborators on agile process teams. They are the source of information used to create use cases and provided needed information on the business value of proposed software feature and functionality. They also provide much needed feedback on operational prototypes during incremental delivery of software increments.<br>客户和最终用户将作为正式合作者参与敏捷流程团队。它们是用于创建用例的信息源，并提供了有关拟议软件 功能的商业价值的必要信息。在软件增量的增量交付期间，它们还提供了有关操作原型的急需的反馈。</p>
-</li>
-<li><p>Describe the three key assumptions regarding software projects that every agile software process must address.<br>描述关于每个敏捷软件过程都必须解决的软件项目的三个关键假设。<br>Answer  (Section 5.3):<br>It is difficult to predict in advance which software requirements and customer priorities will change and which will not.<br>For many types of software design and construction must be interleaved, it is difficult to predict how much design is needed before construction can be used to prove the design.<br>Analysis, design, construction, and testing are not always predictable processes and this makes planning difficult.<br>很难预先预测哪些软件需求和客户优先级将发生变化，哪些不会发生变化。<br>对于许多类型的软件，必须交错进行设计和构造，因此很难预测在使用构造来证明设计之前需要多少设计。<br>分析，设计，构造和测试并非总是可预测的过程，这使计划变得困难。</p>
-</li>
-</ol>
-<h2 id="CHAPTER-6-HUMAN-ASPECTS-OF-SOFTWARE-ENGINEERING-软件工程人员"><a href="#CHAPTER-6-HUMAN-ASPECTS-OF-SOFTWARE-ENGINEERING-软件工程人员" class="headerlink" title="CHAPTER 6 HUMAN ASPECTS OF SOFTWARE ENGINEERING 软件工程人员"></a><span id="6">CHAPTER 6 HUMAN ASPECTS OF SOFTWARE ENGINEERING 软件工程人员</span></h2><ol>
-<li><p>List the key attributes of an effective software teams.<br>列出有效的软件团队的关键属性<br>Answer (Section 6.3):<br>Sense of purpose<br>Sense of involvement<br>Sense of trust<br>Sense of improvement<br>Diversity of team member skill sets<br>目的感<br>参与感<br>信任感<br>改善感<br>团队成员技能集的多样性</p>
-</li>
-<li><p>Describe the strengths and weaknesses of the random paradigm team structure?<br>请描述随机范式团队结构的优缺点？<br>Answer (Section 6.4):<br>The random paradigm depends on the initiative of individual team members. Good when innovation or technological breakthrough is needed. These teams struggle when orderly performance is required.<br>随机范式取决于团队成员的主动性。当需要创新或技术突破时很好。当需要有秩序的表现时，这些团队就会挣扎。</p>
-</li>
-<li><p>Describe the five values held by XP teams?<br>请描述XP团队所持有的五个价值观？<br>Answer (Section 6.5):<br>Communication – close informal verbal communication among team members and stakeholders and establishing meaning for metaphors as part of continuous feedback<br>Simplicity – design for immediate needs nor future needs<br>Feedback – derives from the implemented software, the customer, and other team members<br>Courage – the discipline to resist pressure to design for unspecified future requirements<br>Respect – among team members and stakeholders<br>交流–团队成员和利益相关者之间的非正式口头交流，并为隐喻建立意义，作为持续反馈的一部分<br>简便性–针对眼前需求或未来需求的设计<br>反馈–来自实施的软件，客户和其他团队成员<br>勇气–应对未指定未来需求的设计压力的纪律<br>尊重–团队成员和利益相关者之间</p>
-</li>
-<li><p>List environment characteristics that can be considered toxic to software teams.<br>列出对软件团队有害的环境特征。<br>Answer  (Section 6.3):<br>Frenzied work atmosphere<br>High frustration that causes friction among team members<br>Fragmented or poorly coordinated software process<br>Unclear definition of roles on the software team<br>Continuous and repeated exposure to failure<br>Differing and incompatible team member human traits<br>疯狂的工作氛围<br>挫败感高，导致团队成员之间产生摩擦<br>零散的或缺乏协调的软件流程<br>软件团队中角色的定义不明确<br>持续不断地遭受失败<br>团队成员不同且不相容的人格特质</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>软件工程</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
-        <tag>软件工程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>操作系统概念第2章 — 操作系统结构</title>
-    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<blockquote>
-<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
-<li>用户界面 User Interface <ul>
-<li>命令行界面 Command-line Interface，CLI</li>
-<li>Batch界面</li>
-<li>图形用户界面 Graphical User Interface，GUI</li>
-</ul>
-</li>
-<li>程序执行 Program Execution<ul>
-<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
-</ul>
-</li>
-<li>IO操作 I/O Operation</li>
-<li>文件系统操作 File-system manipulation</li>
-<li>通信 Communications</li>
-<li>错误检测 Error detection</li>
-</ul>
-<ul>
-<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
-<li>资源分配 Resource Allocation</li>
-<li>统计 Accounting</li>
-<li>保护和安全 Protection and security</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
-        <tag>操作系统</tag>
       </tags>
   </entry>
   <entry>
