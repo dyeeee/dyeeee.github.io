@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="总结," />
 
 
 
@@ -79,14 +79,15 @@
 
 
 
-<meta name="description" content="迁移了整个博客文件夹，并重装node.js, hexo库后，测试部署情况。">
+<meta name="description" content="macOS系统重装，迁移整个博客文件夹，记录重装node.js, 重装hexo流程，测试部署情况。 hexo文件夹内容、配置文件不变，迁移后部署配置保留不变，安装node.js，安装git，通过npm安装hexo。  node版本直接官网下载安装的话过高，无法hexo d部署网站，通过nvm来控制node版本后成功恢复部署">
+<meta name="keywords" content="总结">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Blog transport test">
+<meta property="og:title" content="hexo迁移记录">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;12&#x2F;29&#x2F;Blog-transport-test&#x2F;index.html">
 <meta property="og:site_name" content="Yes Blog">
-<meta property="og:description" content="迁移了整个博客文件夹，并重装node.js, hexo库后，测试部署情况。">
+<meta property="og:description" content="macOS系统重装，迁移整个博客文件夹，记录重装node.js, 重装hexo流程，测试部署情况。 hexo文件夹内容、配置文件不变，迁移后部署配置保留不变，安装node.js，安装git，通过npm安装hexo。  node版本直接官网下载安装的话过高，无法hexo d部署网站，通过nvm来控制node版本后成功恢复部署">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-12-29T03:51:49.968Z">
+<meta property="og:updated_time" content="2020-12-29T06:30:36.081Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -123,7 +124,7 @@
 
 
 
-  <title>Blog transport test | Yes Blog</title>
+  <title>hexo迁移记录 | Yes Blog</title>
   
 
 
@@ -321,7 +322,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Blog transport test</h1>
+          <h1 class="post-title" itemprop="name headline">hexo迁移记录</h1>
         
 
         <div class="post-meta">
@@ -349,12 +350,34 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-12-29T11:51:49+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-12-29T14:30:36+08:00">
                 2020-12-29
               </time>
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -383,7 +406,53 @@
       
 
       
-        <p>迁移了整个博客文件夹，并重装node.js, hexo库后，测试部署情况。</p>
+        <p>macOS系统重装，迁移整个博客文件夹，记录重装node.js, 重装hexo流程，测试部署情况。</p>
+<p>hexo文件夹内容、配置文件不变，迁移后部署配置保留不变，安装node.js，安装git，通过npm安装hexo。</p>
+<blockquote>
+<p>node版本直接官网下载安装的话过高，无法hexo d部署网站，通过nvm来控制node版本后成功恢复部署</p>
+</blockquote>
+<a id="more"></a>
+
+<h4 id="卸载node-js"><a href="#卸载node-js" class="headerlink" title="卸载node.js"></a>卸载node.js</h4><p>依次在终端执行下面的脚本</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo npm uninstall npm -g</span><br><span class="line">sudo rm -rf /usr/local/lib/node /usr/local/lib/node_modules /var/db/receipts/org.nodejs.*</span><br><span class="line">sudo rm -rf /usr/local/include/node /Users/$USER/.npm</span><br><span class="line">sudo rm /usr/local/bin/node</span><br><span class="line">sudo rm /usr/local/share/man/man1/node.1</span><br><span class="line">sudo rm /usr/local/lib/dtrace/node.d</span><br></pre></td></tr></table></figure>
+
+<p>验证结果,终端输入</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> node </span></span><br><span class="line">//command not found</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm </span></span><br><span class="line">//command not found</span><br></pre></td></tr></table></figure>
+
+<h4 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h4><p>官网下载安装包 <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></p>
+<p>安装完成后查看版本</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> node -v</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm -v</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h4><p>macOS 内置git，查看版本</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git --version</span></span><br></pre></td></tr></table></figure>
+<h4 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm install -g hexo</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h4><p>此时可以正常使用hexo new “Blog transport test”, hexo g, 并hexo s在本地启动服务，但是hexo d部署时出错。百度原因为node版本过高，安装低版本nodejs或者使用nvm管理node版本</p>
+<blockquote>
+<p>nvm是node版本管理工具，为了解决node各种版本存在不兼容现象，nvm可以在同一台机器上安装和切换不同版本的node。</p>
+</blockquote>
+<h4 id="安装nvm"><a href="#安装nvm" class="headerlink" title="安装nvm"></a>安装nvm</h4><p>先安装homebrew</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”</span><br></pre></td></tr></table></figure>
+<p>查看版本</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> brew -v</span></span><br></pre></td></tr></table></figure>
+<h5 id="再次卸载node"><a href="#再次卸载node" class="headerlink" title="再次卸载node"></a>再次卸载node</h5><h5 id="brew-安装nvm"><a href="#brew-安装nvm" class="headerlink" title="brew 安装nvm"></a>brew 安装nvm</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> brew install nvm</span></span><br></pre></td></tr></table></figure>
+
+<p>安装完成后打开配置文件</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> ~</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> vim .bash_profile</span></span><br></pre></td></tr></table></figure>
+
+<p>按 i 进入编辑模式<br>在文件里添加以下命令</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">export</span> NVM_DIR=~/.nvm</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">source</span> $(brew --prefix nvm)/nvm.sh</span></span><br></pre></td></tr></table></figure>
+
+<p>esc退出编辑模式, :wq保存, 重新source</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">source</span> .bash_profile</span></span><br></pre></td></tr></table></figure>
+<h5 id="nvm本地配置问题"><a href="#nvm本地配置问题" class="headerlink" title="nvm本地配置问题"></a>nvm本地配置问题</h5><p>.bash_profile中配置后nvm命令没有永久生效（JAVA和Homebrew的可以？），原因为macOS 10.15后使用zsh，需要在 ～/.zshrc 最后添加一句source .bash_profile即可。（但是这样每次启动终端都略慢，待解决）</p>
+<h5 id="通过nvm安装指定版本的node"><a href="#通过nvm安装指定版本的node" class="headerlink" title="通过nvm安装指定版本的node"></a>通过nvm安装指定版本的node</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> nvm install 12.2</span></span><br></pre></td></tr></table></figure>
+<p>使用指定版本的node</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> nvm use 12.2</span></span><br></pre></td></tr></table></figure>
+<p>设置默认版本的Node，每次启动终端都使用该版本的node</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> nvm <span class="built_in">alias</span> default 12.2</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="重新部署hexo成功"><a href="#重新部署hexo成功" class="headerlink" title="重新部署hexo成功"></a>重新部署hexo成功</h4><p>配置文件等内容都不变，迁移hexo文件夹完成</p>
 
       
     </div>
@@ -398,6 +467,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E6%80%BB%E7%BB%93/" rel="tag"># 总结</a>
+          
+        </div>
       
 
       
@@ -468,8 +543,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -533,6 +617,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#卸载node-js"><span class="nav-number">1.</span> <span class="nav-text">卸载node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装node-js"><span class="nav-number">2.</span> <span class="nav-text">安装node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装git"><span class="nav-number">3.</span> <span class="nav-text">安装git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装hexo"><span class="nav-number">4.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#问题"><span class="nav-number">5.</span> <span class="nav-text">问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装nvm"><span class="nav-number">6.</span> <span class="nav-text">安装nvm</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#再次卸载node"><span class="nav-number">6.1.</span> <span class="nav-text">再次卸载node</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#brew-安装nvm"><span class="nav-number">6.2.</span> <span class="nav-text">brew 安装nvm</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#nvm本地配置问题"><span class="nav-number">6.3.</span> <span class="nav-text">nvm本地配置问题</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#通过nvm安装指定版本的node"><span class="nav-number">6.4.</span> <span class="nav-text">通过nvm安装指定版本的node</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#重新部署hexo成功"><span class="nav-number">7.</span> <span class="nav-text">重新部署hexo成功</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
