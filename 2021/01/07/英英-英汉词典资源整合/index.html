@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="总结," />
 
 
 
@@ -86,14 +86,15 @@
 
 
 
-<meta name="description" content="Carpe diem">
+<meta name="description" content="整合一份英英&#x2F;英汉词典资源，包含单词、音标、英英释义、英汉释义、例句等内容。可用于本地词典、背单词软件等的开发。在此记录资源来源及字段含义。">
+<meta name="keywords" content="总结">
 <meta property="og:type" content="article">
 <meta property="og:title" content="英英&#x2F;英汉词典资源整合">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2021&#x2F;01&#x2F;07&#x2F;%E8%8B%B1%E8%8B%B1-%E8%8B%B1%E6%B1%89%E8%AF%8D%E5%85%B8%E8%B5%84%E6%BA%90%E6%95%B4%E5%90%88&#x2F;index.html">
 <meta property="og:site_name" content="Yes Blog">
-<meta property="og:description" content="Carpe diem">
+<meta property="og:description" content="整合一份英英&#x2F;英汉词典资源，包含单词、音标、英英释义、英汉释义、例句等内容。可用于本地词典、背单词软件等的开发。在此记录资源来源及字段含义。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2021-01-07T12:09:22.425Z">
+<meta property="og:updated_time" content="2021-01-09T12:57:44.842Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -356,12 +357,34 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2021-01-07T20:09:22+08:00">
-                2021-01-07
+              <time title="更新于" itemprop="dateModified" datetime="2021-01-09T20:57:44+08:00">
+                2021-01-09
               </time>
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/GitHub/" itemprop="url" rel="index">
+                    <span itemprop="name">GitHub</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -394,7 +417,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0 字
+                  1.7k 字
                 </span>
               
 
@@ -410,7 +433,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  6 分钟
                 </span>
               
             </div>
@@ -431,7 +454,177 @@
       
 
       
-        
+        <blockquote>
+<p>整合一份英英/英汉词典资源，包含单词、音标、英英释义、英汉释义、例句等内容。可用于本地词典、背单词软件等的开发。在此记录资源来源及字段含义。</p>
+</blockquote>
+<a id="more"></a>
+
+<h3 id="0-参考来源"><a href="#0-参考来源" class="headerlink" title="0. 参考来源"></a>0. 参考来源</h3><ol>
+<li>GitHub项目 <a href="https://github.com/skywind3000/ECDICT" target="_blank" rel="noopener">ECDICT</a>, 收集了数十万单词的词典数据库，2.4k Star。</li>
+<li>CSDN <a href="https://u25th-engineer.blog.csdn.net/article/details/105901529?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param" target="_blank" rel="noopener">爬取并处理150708个英语单词的例句</a>，博主自行爬取了单词的注音、释义、例句。</li>
+</ol>
+<h3 id="1-整理及合并"><a href="#1-整理及合并" class="headerlink" title="1. 整理及合并"></a>1. 整理及合并</h3><p>ECDICT项目内容非常的丰富，后续的资料整合都是以该项目的资料作为基础。该项目最近更新时间已超过一年前，其中部分数据字段如detail，audio等后续暂未添加，因此暂时删去。该数据库中的音标经对照基本为英式音标，同时没有例句资源。</p>
+<p><a href="https://u25th-engineer.blog.csdn.net/article/details/105901529?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param" target="_blank" rel="noopener">爬取并处理150708个英语单词的例句</a>文章中，博主自行爬取了单词的注音、释义、例句，并发布了.sql文件。该数据库中的音标（含英、美）及释义字段合并为了同一个字段，使用的时候可能有所不便。通过模糊匹配提取出了ECDICT中缺乏的美式音标，并基于单词进行关联。例句资源也同样进行关联。另，为了便于导出为csv等文件格式使用，所有空值使用文本”nullTag”代替。</p>
+<p>最终数据库包含以下字段：<br>|  字段名  | 字段说明  |<br>|  —-  | —-  |<br>| wordID  | 单词ID，主键 |<br>| wordContent  | 单词 |<br>| phonetic_EN  | 英式英标 |<br>| phonetic_US  | 美式英标 |<br>| definition  | 英英释义 |<br>| translation  | 英含释义 |<br>| wordTags  | 单词标记（四六级/雅思等） |<br>| wordExchanges  | 时态复数等词形变换 |<br>| bncLevel  | 英国国家语料库词频顺序（1为频率最高） |<br>| frqLevel  | 当代语料库词频顺序（1为频率最高） |<br>| collinsLevel  | 柯林斯星级（1-5星，5星为频率最高） |<br>| oxfordLevel  | 是否牛津三千核心词汇 |<br>| exampleSentences  | 例句 |</p>
+<h3 id="2-字段详情"><a href="#2-字段详情" class="headerlink" title="2. 字段详情"></a>2. 字段详情</h3><ul>
+<li><p>wordID</p>
+<p>单词ID，主键，1-770611，无空值，无重复值</p>
+</li>
+<li><p>wordTags</p>
+<p>14942词包含任一标签，其余为nullTag。属于多个标签则空格分隔。</p>
+<pre><code>e.g. abandon
+gk cet4 cet6 </code></pre><table>
+<thead>
+<tr>
+<th>标签明细</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>zk</td>
+<td>中考词汇</td>
+</tr>
+<tr>
+<td>gk</td>
+<td>高考词汇</td>
+</tr>
+<tr>
+<td>ky</td>
+<td>考研词汇</td>
+</tr>
+<tr>
+<td>cet4</td>
+<td>四级词汇</td>
+</tr>
+<tr>
+<td>cet6</td>
+<td>六级词汇</td>
+</tr>
+<tr>
+<td>ielts</td>
+<td>雅思词汇</td>
+</tr>
+<tr>
+<td>toefl</td>
+<td>托福词汇</td>
+</tr>
+<tr>
+<td>gre</td>
+<td>GRE词汇</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>wordExchanges<br>96290词包含至少一个词形变化。</p>
+<pre><code>e.g. perceive
+d:perceived/p:perceived/3:perceives/i:perceiving</code></pre><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>p</td>
+<td>过去式（did）</td>
+</tr>
+<tr>
+<td>d</td>
+<td>过去分词（done）</td>
+</tr>
+<tr>
+<td>i</td>
+<td>现在分词（doing）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>第三人称单数（does）</td>
+</tr>
+<tr>
+<td>r</td>
+<td>形容词比较级（-er）</td>
+</tr>
+<tr>
+<td>t</td>
+<td>形容词最高级（-est）</td>
+</tr>
+<tr>
+<td>s</td>
+<td>名词复数形式</td>
+</tr>
+<tr>
+<td>0</td>
+<td>Lemma（词根），如 perceived 的 Lemma 是 perceive</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Lemma 的变换形式，比如 s 代表 apples 是其 lemma 的复数形式</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>bncLevel</p>
+<p>  British National Corpus，英国国家语料库词频顺序，1-45443，1为使用频率最高的单词(the)。其余单词此字段值为0。</p>
+<blockquote>
+<p>参考资料： </p>
+<p><a href="http://www.kilgarriff.co.uk/bnc-readme.html" target="_blank" rel="noopener">http://www.kilgarriff.co.uk/bnc-readme.html</a><br><a href="http://www.natcorp.ox.ac.uk/using/index.xml?ID=freq" target="_blank" rel="noopener">http://www.natcorp.ox.ac.uk/using/index.xml?ID=freq</a></p>
+<p>百度到最常见的bnc15000词与本数据库提供的有所出入，但是大致的词频趋势是一致的</p>
+</blockquote>
+</li>
+<li><p>frqLevel</p>
+<p>  数据基于Corpus of Contemporary American English (COCA)，当代美国英语语料库，1-42231，1为使用频率最高的单词(the)。其余单词此字段值为0。</p>
+<blockquote>
+<p>   参考资料： </p>
+<p>   <a href="https://www.wordfrequency.info/files/entries.pdf" target="_blank" rel="noopener">https://www.wordfrequency.info/files/entries.pdf</a></p>
+<p>   本数据库中的数据与此来源完全一致</p>
+</blockquote>
+<blockquote>
+<p>   英国国家语料库词频顺序与当代美国英语语料库顺序区别：引自ECDICT源项目</p>
+<p>BNC 词频统计的是最近几百年的历史各类英文资料，而当代语料库只统计了最近 20 年的，为什么两者都要提供呢？</p>
+<p>很简单，quay（码头）这个词在当代语料库里拍两万以外，你可能觉得是个没必要掌握的生僻词，而 BNC 里面却排在第 8906 名，基本算是一个高频词，为啥呢？可以想象过去航海还是一个重要的交通工具，所以以往的各类文字资料对这个词提的比较多，你要看懂 19 世纪即以前的各类名著，你会发现 BNC 的词频很管用。</p>
+<p>而你要阅读各类现代杂志，当代语料库的作用就体现出来了，比如 Taliban（塔利班），在 BNC 词频里基本就没收录（没进前 20 万词汇），而在当代语料库里，它已经冒到 6089 号了，高频中的高频。</p>
+<p>BNC 较为全面和传统，针对性学习能帮助你阅读各类国外帝王将相的文学名著，当代语料库较为现代和实时，以和科技紧密相关。所以两者搭配，干活不累。而你要阅读各类现代杂志，当代语料库的作用就体现出来了，比如 Taliban（塔利班），在 BNC 词频里基本就没收录（没进前 20 万词汇），而在当代语料库里，它已经冒到 6089 号了，高频中的高频。</p>
+<p>BNC 较为全面和传统，针对性学习能帮助你阅读各类国外帝王将相的文学名著，当代语料库较为现代和实时，以和科技紧密相关。所以两者搭配，干活不累。</p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li><p>collinsLevel</p>
+<p>  数据基于Collins COBUILD Advanced Learner’s English-Chinese Dictionary，柯林斯词典。分为1-5级，级别5为最常使用，级别1为较少使用。共13633词有级别，其余单词此字段值为0。</p>
+<blockquote>
+<p>   参考资料： </p>
+<p>   <a href="https://inli.neocities.org/Collins%20COBUILD%20English%20Dictionary%20FREQUENT%20WORD%20LIST.pdf" target="_blank" rel="noopener">https://inli.neocities.org/Collins%20COBUILD%20English%20Dictionary%20FREQUENT%20WORD%20LIST.pdf</a></p>
+<p>   2010版柯林斯星级词汇，本数据库中的数据与此来源不完全一致，但大致相同</p>
+</blockquote>
+</li>
+<li><p>oxfordLevel</p>
+<p>  数据基于Oxford English Corpus，是一份从包含20亿词的牛津英语语料库（Oxford English Corpus）中精选而出的英语学习者必备常用 3000 词表。若为核心词汇则为1，3461词，其余单词此字段值为0。</p>
+<blockquote>
+<p>   参考资料： </p>
+<p>   <a href="https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000" target="_blank" rel="noopener">https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000</a></p>
+</blockquote>
+</li>
+<li><p>exampleSentences</p>
+<p>爬取自必应词典，共95675词有例句，每条例句包含中英对照，用<code>&lt;br&gt;</code>隔开</p>
+<pre><code>e.g. abandon
+Later, as a result of working reason and the matter that oneself study, abandon for a long time without time.&lt;br&gt;后来，由于工作的原因和自己学习的原因，没有时间放弃很长时间了。&lt;br&gt;Through repeated failures a man learns to persist in the pursuit of worthy goals and to abandon goals that are unworthy of him.&lt;br&gt;通过不断的失败，真正的男人会学会如何坚持追求真正有价值的东西，放弃没有价值的追求。</code></pre></li>
+</ul>
+<h3 id="3-提取特定词典"><a href="#3-提取特定词典" class="headerlink" title="3. 提取特定词典"></a>3. 提取特定词典</h3><p>完成数据库导出为csv后280MB+，为了使用方便，提取几个较小的词典。</p>
+<table>
+<thead>
+<tr>
+<th>文件名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CET_Words.csv</td>
+<td>tag包含cet4/cet6的单词</td>
+</tr>
+<tr>
+<td>gk</td>
+<td>高考词汇</td>
+</tr>
+</tbody></table>
+
       
     </div>
     
@@ -445,6 +638,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E6%80%BB%E7%BB%93/" rel="tag"># 总结</a>
+          
+        </div>
       
 
       
@@ -518,8 +717,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -549,7 +757,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -593,6 +801,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#0-参考来源"><span class="nav-number">1.</span> <span class="nav-text">0. 参考来源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-整理及合并"><span class="nav-number">2.</span> <span class="nav-text">1. 整理及合并</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-字段详情"><span class="nav-number">3.</span> <span class="nav-text">2. 字段详情</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-提取特定词典"><span class="nav-number">4.</span> <span class="nav-text">3. 提取特定词典</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
