@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Yes Blog">
 <meta property="og:description" content="用hexo记录一下hexo常用的操作和命令">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-09-29T10:05:26.230Z">
+<meta property="og:updated_time" content="2021-01-10T04:26:22.902Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -357,8 +357,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-09-29T18:05:26+08:00">
-                2020-09-29
+              <time title="更新于" itemprop="dateModified" datetime="2021-01-10T12:26:22+08:00">
+                2021-01-10
               </time>
             
           </span>
@@ -417,7 +417,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  503 字
+                  713 字
                 </span>
               
 
@@ -433,7 +433,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  2 分钟
                 </span>
               
             </div>
@@ -473,7 +473,42 @@
 <hr>
 <h4 id="删除文章"><a href="#删除文章" class="headerlink" title="删除文章"></a>删除文章</h4><p>在source/_post路径下删除对应为文章标题和文件夹，然后进行一次生成和部署</p>
 <hr>
-<h4 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h4><p>在文章中添加<br><code>&lt;!--more--&gt;</code><br>hexo网页只显示预览之前的内容</p>
+<h4 id="文章预览"><a href="#文章预览" class="headerlink" title="文章预览"></a>文章预览</h4><p>在文章中添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">hexo网页只显示预览之前的内容</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">#### 代码及代码块</span><br><span class="line">在markdown中使用``包围一段代码呈现代码效果 </span><br><span class="line">`print(&quot;hi&quot;)`,</span><br><span class="line">使用一组```包围一段代码呈现代码块</span><br><span class="line"></span><br><span class="line">    ```swift</span><br><span class="line">    var A:String = &quot;hi&quot;</span><br><span class="line">    print(A)</span><br></pre></td></tr></table></figure>
+<p>在开头的```后声明语言，则会呈现对应的高亮显示效果：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> <span class="type">A</span>:<span class="type">String</span> = <span class="string">"hi"</span></span><br><span class="line"><span class="built_in">print</span>(<span class="type">A</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="加粗-斜体-下划线-删除线"><a href="#加粗-斜体-下划线-删除线" class="headerlink" title="加粗/斜体/下划线/删除线"></a>加粗/斜体/下划线/删除线</h4><ul>
+<li><p>加粗 <code>**hello**</code>, <strong>hello</strong></p>
+</li>
+<li><p>斜体 <code>*hello*</code>, <em>hello</em></p>
+</li>
+<li><p>下划线(无原生md语法) <code>&lt;u&gt;hello&lt;/u&gt;</code>, <u>hello</u></p>
+</li>
+<li><p>删除线 <code>~~hello~~</code>, <del>hello</del></p>
+</li>
+<li><p>组合 <code>***&lt;u&gt;~~hello~~&lt;/u&gt;***</code>,  <strong>*<u><del>hello</del></u>*</strong></p>
+<h4 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|  表头1  | 表头2  |</span><br><span class="line">|  -  | - |</span><br><span class="line">|  A1  | B1  |</span><br><span class="line">|  A2  | B2  |</span><br></pre></td></tr></table></figure>
+<p>显示效果</p>
+<table>
+<thead>
+<tr>
+<th>表头1</th>
+<th>表头2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A1</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>B2</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">对齐设置</span><br><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-    | -:    |  :-:   |</span><br><span class="line">| 内容 | 内容 | 内容 |</span><br><span class="line">| 内容 | 内容 | 内容 |</span><br></pre></td></tr></table></figure>
+<p>显示效果<br>| 左对齐 | 右对齐 | 居中对齐 |<br>| :-| -: | :-: |<br>| 内容 | 内容 | 内容 |<br>| 内容 | 内容 | 内容 |</p>
 <hr>
 <h3 id="2-命令"><a href="#2-命令" class="headerlink" title="2. 命令"></a>2. 命令</h3><h4 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h4><p>创建文章后生成静态文件，此时可以在本地服务器预览：</p>
 <p><code>hexo generate</code> ，可以简写为 <code>hexo g</code></p>
@@ -491,6 +526,7 @@
 <h3 id="后续遇到需要记录的操作再更新"><a href="#后续遇到需要记录的操作再更新" class="headerlink" title="后续遇到需要记录的操作再更新"></a>后续遇到需要记录的操作再更新</h3><blockquote>
 <p>参考自<br><a href="https://www.cnblogs.com/wsmrzx/p/9439448.html" target="_blank" rel="noopener">Hexo系列(三) 常用命令详解</a></p>
 </blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(hello)</span><br><span class="line">select * from</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -682,7 +718,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-文章"><span class="nav-number">1.</span> <span class="nav-text">1. 文章</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#新建文章"><span class="nav-number">1.1.</span> <span class="nav-text">新建文章</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#插入图片"><span class="nav-number">1.2.</span> <span class="nav-text">插入图片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分类和标签"><span class="nav-number">1.3.</span> <span class="nav-text">分类和标签</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#hide标签"><span class="nav-number">1.3.1.</span> <span class="nav-text">hide标签</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#删除文章"><span class="nav-number">1.4.</span> <span class="nav-text">删除文章</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#文章预览"><span class="nav-number">1.5.</span> <span class="nav-text">文章预览</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-命令"><span class="nav-number">2.</span> <span class="nav-text">2. 命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#生成静态文件"><span class="nav-number">2.1.</span> <span class="nav-text">生成静态文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#部署网站"><span class="nav-number">2.2.</span> <span class="nav-text">部署网站</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#打开本地服务器"><span class="nav-number">2.3.</span> <span class="nav-text">打开本地服务器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#清除缓存"><span class="nav-number">2.4.</span> <span class="nav-text">清除缓存</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#后续遇到需要记录的操作再更新"><span class="nav-number">3.</span> <span class="nav-text">后续遇到需要记录的操作再更新</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-文章"><span class="nav-number">1.</span> <span class="nav-text">1. 文章</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#新建文章"><span class="nav-number">1.1.</span> <span class="nav-text">新建文章</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#插入图片"><span class="nav-number">1.2.</span> <span class="nav-text">插入图片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分类和标签"><span class="nav-number">1.3.</span> <span class="nav-text">分类和标签</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#hide标签"><span class="nav-number">1.3.1.</span> <span class="nav-text">hide标签</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#删除文章"><span class="nav-number">1.4.</span> <span class="nav-text">删除文章</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#文章预览"><span class="nav-number">1.5.</span> <span class="nav-text">文章预览</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#加粗-斜体-下划线-删除线"><span class="nav-number">1.6.</span> <span class="nav-text">加粗/斜体/下划线/删除线</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#表格"><span class="nav-number">1.7.</span> <span class="nav-text">表格</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-命令"><span class="nav-number">2.</span> <span class="nav-text">2. 命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#生成静态文件"><span class="nav-number">2.1.</span> <span class="nav-text">生成静态文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#部署网站"><span class="nav-number">2.2.</span> <span class="nav-text">部署网站</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#打开本地服务器"><span class="nav-number">2.3.</span> <span class="nav-text">打开本地服务器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#清除缓存"><span class="nav-number">2.4.</span> <span class="nav-text">清除缓存</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#后续遇到需要记录的操作再更新"><span class="nav-number">3.</span> <span class="nav-text">后续遇到需要记录的操作再更新</span></a></li></ol></div>
             
 
           </div>
