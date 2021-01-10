@@ -114,10 +114,13 @@
 <h4 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![figName](文章文件夹名/图片名.JPG &apos;&apos;figPreview&apos;&apos;)</span><br><span class="line"></span><br><span class="line">figName: 显示在图片下面的文字</span><br><span class="line">figPreview: 是图片的标题，当鼠标移到图片上时显示的内容</span><br></pre></td></tr></table></figure>
 <hr>
 <h4 id="分类和标签"><a href="#分类和标签" class="headerlink" title="分类和标签"></a>分类和标签</h4><p>文章的头格式如下:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Title</span><br><span class="line">date: 2020-05-27 17:33:48</span><br><span class="line">categories: </span><br><span class="line">    - cate1</span><br><span class="line">    - cate2</span><br><span class="line">tags:</span><br><span class="line">    - tag1</span><br><span class="line">    - tag2</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Title</span><br><span class="line">date: 2020-05-27 17:33:48</span><br><span class="line">categories: </span><br><span class="line">    - cate1</span><br><span class="line">    - cate2</span><br><span class="line">tags:</span><br><span class="line">    - tag1</span><br><span class="line">    - tag2</span><br><span class="line">comments: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <p><a href="https://www.jianshu.com/p/e17711e44e00" target="_blank" rel="noopener">配置categories和tags</a>之后，在文章头部添加对应的分类和标签。</p>
 <h5 id="hide标签"><a href="#hide标签" class="headerlink" title="hide标签"></a>hide标签</h5><p>配置了隐藏文章后，添加<br><code>- hide</code><br>标签可以让文章隐藏。</p>
+<hr>
+<h4 id="关闭评论"><a href="#关闭评论" class="headerlink" title="关闭评论"></a>关闭评论</h4><p>如需取消某个 页面/文章 的评论，在 md 文件的 front-matter 中增加</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">comments: false</span><br></pre></td></tr></table></figure>
 <hr>
 <h4 id="删除文章"><a href="#删除文章" class="headerlink" title="删除文章"></a>删除文章</h4><p>在source/_post路径下删除对应为文章标题和文件夹，然后进行一次生成和部署</p>
 <hr>
