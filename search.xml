@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>SwiftUI2.0 ScrollViewReader用法</title>
-    <url>/2021/01/12/SwiftUI2-0-ScrollViewReader%E7%94%A8%E6%B3%95/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>hexo迁移记录</title>
     <url>/2020/12/29/Blog-transport-test/</url>
     <content><![CDATA[<p>macOS系统重装，迁移整个博客文件夹，记录重装node.js, 重装hexo流程，测试部署情况。</p>
@@ -62,6 +57,11 @@
       <tags>
         <tag>总结</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>SwiftUI手动设置软件深色模式/自动跟随系统外观</title>
+    <url>/2021/02/06/SwiftUI%E6%89%8B%E5%8A%A8%E8%AE%BE%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%B7%B1%E8%89%B2%E6%A8%A1%E5%BC%8F-%E8%87%AA%E5%8A%A8%E8%B7%9F%E9%9A%8F%E7%B3%BB%E7%BB%9F%E5%A4%96%E8%A7%82/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>figtest</title>
@@ -498,6 +498,11 @@
       </tags>
   </entry>
   <entry>
+    <title>SwiftUI2.0 ScrollViewReader用法</title>
+    <url>/2021/01/12/SwiftUI2-0-ScrollViewReader%E7%94%A8%E6%B3%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>可视化程序设计1-6章复习</title>
     <url>/2019/12/12/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A11-6%E7%AB%A0%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<blockquote>
@@ -610,47 +615,6 @@
       <tags>
         <tag>总结</tag>
         <tag>软件工程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>操作系统概念第2章 — 操作系统结构</title>
-    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<blockquote>
-<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
-<li>用户界面 User Interface <ul>
-<li>命令行界面 Command-line Interface，CLI</li>
-<li>Batch界面</li>
-<li>图形用户界面 Graphical User Interface，GUI</li>
-</ul>
-</li>
-<li>程序执行 Program Execution<ul>
-<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
-</ul>
-</li>
-<li>IO操作 I/O Operation</li>
-<li>文件系统操作 File-system manipulation</li>
-<li>通信 Communications</li>
-<li>错误检测 Error detection</li>
-</ul>
-<ul>
-<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
-<li>资源分配 Resource Allocation</li>
-<li>统计 Accounting</li>
-<li>保护和安全 Protection and security</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
-        <tag>操作系统</tag>
       </tags>
   </entry>
   <entry>
@@ -902,6 +866,47 @@
       <tags>
         <tag>总结</tag>
         <tag>软件工程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>操作系统概念第2章 — 操作系统结构</title>
+    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<blockquote>
+<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
+<li>用户界面 User Interface <ul>
+<li>命令行界面 Command-line Interface，CLI</li>
+<li>Batch界面</li>
+<li>图形用户界面 Graphical User Interface，GUI</li>
+</ul>
+</li>
+<li>程序执行 Program Execution<ul>
+<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
+</ul>
+</li>
+<li>IO操作 I/O Operation</li>
+<li>文件系统操作 File-system manipulation</li>
+<li>通信 Communications</li>
+<li>错误检测 Error detection</li>
+</ul>
+<ul>
+<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
+<li>资源分配 Resource Allocation</li>
+<li>统计 Accounting</li>
+<li>保护和安全 Protection and security</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>操作系统</tag>
       </tags>
   </entry>
   <entry>
