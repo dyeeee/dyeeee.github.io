@@ -100,6 +100,7 @@
 </blockquote>
 <a id="more"></a>
 
+<h3 id="贴上美化相关的文章"><a href="#贴上美化相关的文章" class="headerlink" title="贴上美化相关的文章"></a>贴上美化相关的文章</h3><p>hexo + next主题高级配置<br><a href="https://www.jianshu.com/p/344cf061598d" target="_blank" rel="noopener">https://www.jianshu.com/p/344cf061598d</a></p>
 <h3 id="1-文章"><a href="#1-文章" class="headerlink" title="1. 文章"></a>1. 文章</h3><h4 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h4><p>在hexo文件夹下进入控制台，输入：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &apos;title标题&apos;</span><br></pre></td></tr></table></figure>
 <p>新建文章后会在<code>hexo文件夹/source/_post</code>路径下创建title.md和title文件夹。.md文件即为文章内容，配置了添加图片后可以在文件夹中放入图片，在.md中插入图片。</p>
