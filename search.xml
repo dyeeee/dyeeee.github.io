@@ -59,18 +59,14 @@
       </tags>
   </entry>
   <entry>
-    <title>SwiftUI手动设置软件深色模式/自动跟随系统外观</title>
-    <url>/2021/02/06/SwiftUI%E6%89%8B%E5%8A%A8%E8%AE%BE%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%B7%B1%E8%89%B2%E6%A8%A1%E5%BC%8F-%E8%87%AA%E5%8A%A8%E8%B7%9F%E9%9A%8F%E7%B3%BB%E7%BB%9F%E5%A4%96%E8%A7%82/</url>
+    <title>SwiftUI2.0 ScrollViewReader用法</title>
+    <url>/2021/01/12/SwiftUI2-0-ScrollViewReader%E7%94%A8%E6%B3%95/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>figtest</title>
-    <url>/2020/05/27/figtest/</url>
-    <content><![CDATA[<p><img src="/2020/05/27/figtest/123.JPG" alt="app"></p>
-]]></content>
-      <tags>
-        <tag>hide</tag>
-      </tags>
+    <title>SwiftUI手动设置软件深色模式/自动跟随系统外观</title>
+    <url>/2021/02/06/SwiftUI%E6%89%8B%E5%8A%A8%E8%AE%BE%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%B7%B1%E8%89%B2%E6%A8%A1%E5%BC%8F-%E8%87%AA%E5%8A%A8%E8%B7%9F%E9%9A%8F%E7%B3%BB%E7%BB%9F%E5%A4%96%E8%A7%82/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -91,6 +87,15 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>figtest</title>
+    <url>/2020/05/27/figtest/</url>
+    <content><![CDATA[<p><img src="/2020/05/27/figtest/123.JPG" alt="app"></p>
+]]></content>
+      <tags>
+        <tag>hide</tag>
+      </tags>
   </entry>
   <entry>
     <title>hexo的常用操作</title>
@@ -205,303 +210,45 @@
       </tags>
   </entry>
   <entry>
-    <title>可视化程序设计19-29章复习</title>
-    <url>/2019/12/15/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A119-29%E7%AB%A0%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<hr>
-<blockquote>
-<p>可视化程序设计8-15章问答题（中文影印版15-21章）<br>基于 <em>Software Engineering A PRACTITIONER’S APPROACH 8th</em>     <em>软件工程：实践者的研究方法</em>     </p>
+    <title>操作系统概念第2章 — 操作系统结构</title>
+    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<blockquote>
+<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
 </blockquote>
-<hr>
-<ul>
-<li><strong>PART 3 质量管理 QUALITY MANAGEMENT</strong>   </li>
-</ul>
-<ol>
-<li><a href="#19">CH19 质量概念</a></li>
-<li><a href="#21">CH21 软件质量保证</a></li>
-<li><a href="#22">CH22 软件测试策略</a></li>
-<li><a href="#23">CH23 测试传统的应用软件</a></li>
-<li><a href="#24">CH24 测试面向对象的应用</a></li>
-<li><a href="#27">CH27 安全性工程</a></li>
-<li><a href="#29">CH29 软件配置管理</a></li>
-</ol>
-<hr>
 <a id="more"></a>
 
-<h2 id="CHAPTER-19-Quality-Concepts-质量概念"><a href="#CHAPTER-19-Quality-Concepts-质量概念" class="headerlink" title="CHAPTER 19 Quality Concepts 质量概念"></a><span id="19">CHAPTER 19 Quality Concepts 质量概念</span></h2><ol>
-<li>What are three dimensions of software quality?<br>软件质量的三个方面是什么？<br>Answer (Section 19.2):</li>
-</ol>
+<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
+<li>用户界面 User Interface <ul>
+<li>命令行界面 Command-line Interface，CLI</li>
+<li>Batch界面</li>
+<li>图形用户界面 Graphical User Interface，GUI</li>
+</ul>
+</li>
+<li>程序执行 Program Execution<ul>
+<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
+</ul>
+</li>
+<li>IO操作 I/O Operation</li>
+<li>文件系统操作 File-system manipulation</li>
+<li>通信 Communications</li>
+<li>错误检测 Error detection</li>
+</ul>
 <ul>
-<li>An effective software process establishes the infrastructure that supports any effort at building a high quality software product.</li>
-<li>A useful product delivers the content, functions, and features that the end-user desires, but as important, it delivers these assets in a reliable, error free way.</li>
-<li>By adding value for both the producer and user of a software product, high quality software provides benefits for the software organization and the end-user community.</li>
-<li>有效的软件流程可以建立基础架构，以支持构建高质量软件产品的所有工作。</li>
-<li>有用的产品可以提供最终用户所需的内容，功能和特性，但同样重要的是，它可以可靠，无错误的方式提供这些资产。</li>
-<li>通过为软件产品的生产者和用户增加价值，高质量的软件为软件组织和最终用户社区带来了好处。<br>
+<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
+<li>资源分配 Resource Allocation</li>
+<li>统计 Accounting</li>
+<li>保护和安全 Protection and security</li>
+</ul>
 </li>
 </ul>
-<ol start="2">
-<li>Describe the costs associated with software quality work?<br>描述与软件质量工作相关的成本？<br>Answer (Section 19.3.2):</li>
-</ol>
-<ul>
-<li><p>Prevention costs - quality planning, formal technical reviews, test equipment, training</p>
-</li>
-<li><p>Appraisal costs - in-process and inter-process inspection, equipment calibration and maintenance, testing</p>
-</li>
-<li><p>Internal failure costs - rework, repair, failure mode analysis</p>
-</li>
-<li><p>External failure costs - complaint resolution, product return and replacement, help line support, warranty work</p>
-</li>
-<li><p>预防费用-质量计划，正式技术审查，测试设备，培训</p>
-</li>
-<li><p>评估费用-过程中和过程间检查，设备校准和维护，测试</p>
-</li>
-<li><p>内部故障成本-返工，维修，故障模式分析</p>
-</li>
-<li><p>外部故障成本-解决投诉，产品退回和更换，热线支持，保修工作</p>
-<br>
-</li>
-</ul>
-<ol start="3">
-<li>What practices should software engineers follow to enhance the quality of software produced by their team?<br>软件工程师应遵循哪些实践来提高其团队生产的软件的质量？<br>Answer (Section 19.4):</li>
-</ol>
-<ul>
-<li>Software quality is the result of good project management and solid engineering practice</li>
-<li>To build high quality software you must understand the problem to be solved and be capable of creating a quality design the conforms to the problem requirements</li>
-<li>Eliminating architectural flaws during design can improve quality</li>
-<li>软件质量是良好的项目管理和扎实的工程实践的结果</li>
-<li>要构建高质量的软件，您必须了解要解决的问题并能够创建符合问题要求的质量设计</li>
-<li>在设计过程中消除架构缺陷可以提高质量<br>
-</li>
-</ul>
-<ol start="4">
-<li>Discuss how poor management decisions can impact software quality?<br>讨论糟糕的管理决策如何影响软件质量？<br>Answer (Section 19.3.6):</li>
-</ol>
-<ul>
-<li>Estimation decisions – irrational delivery date estimates cause teams to take short-cuts that can lead to reduced product quality </li>
-<li>Scheduling decisions – failing to pay attention to task dependencies when creating the project schedule may force the project team to test modules without their subcomponents and quality may suffer</li>
-<li>Risk-oriented decisions – reacting to each crisis as it arises rather than building in mechanisms to monitor risks and having established contingency plans  may result in products having reduced quality</li>
-<li>估算决策–不合理的交货日期估算会导致团队采取捷径，从而导致产品质量下降</li>
-<li>计划决策–在创建项目进度表时未注意任务依赖性可能会迫使项目团队测试没有子组件的模块，从而可能会降低质量</li>
-<li>以风险为导向的决策–对每次危机进行应对，而不是建立监视风险的机制，并且已建立应急计划可能会导致产品质量下降<br>
-
-</li>
-</ul>
-<h2 id="CHAPTER-21-Software-Quality-Assurance-软件质量保证"><a href="#CHAPTER-21-Software-Quality-Assurance-软件质量保证" class="headerlink" title="CHAPTER 21 Software Quality Assurance 软件质量保证"></a><span id="21">CHAPTER 21 Software Quality Assurance 软件质量保证</span></h2><ol>
-<li>List the tasks performed by the SQA group.<br>列出SQA组执行的任务。<br>Answer (Section 21.4.1):</li>
-</ol>
-<ul>
-<li>Prepare SQA plan for the project.</li>
-<li>Participate in the development of the project’s software process description.</li>
-<li>Review software engineering activities to verify compliance with the defined software process.</li>
-<li>Audit designated software work products to verify compliance with those defined as part of the software process.</li>
-<li>Ensure that any deviations in software or work products are documented and handled according to a documented procedure.</li>
-<li>Record any evidence of noncompliance and reports them to management</li>
-<li>为项目准备SQA计划。</li>
-<li>参与开发项目的软件过程描述。</li>
-<li>审查软件工程活动，以验证是否符合定义的软件过程。</li>
-<li>审核指定的软件工作产品，以验证是否符合在软件过程中定义的产品。</li>
-<li>确保按照书面程序记录和处理软件或工作产品中的任何偏差。</li>
-<li>记录任何不合规的证据并将其报告给管理层<br>
-</li>
-</ul>
-<ol start="2">
-<li>What are the goals for the project SQA activities?<br>项目SQA活动的目标是什么？<br>Answer (Section 21.4.2):</li>
-</ol>
-<ul>
-<li>Requirements quality</li>
-<li>Design quality</li>
-<li>Code quality</li>
-<li>Quality control effectiveness</li>
-<li>需求质量</li>
-<li>设计品质</li>
-<li>代码质量</li>
-<li>质量控制有效性<br>
-</li>
-</ul>
-<ol start="3">
-<li><p>What is meant by the term software reliability?<br>软件可靠性一词是什么意思？<br>Answer (Section 21.7):<br>Software reliability is the probability of error free operation of a computer program in a specified environment for a specified time period.<br>软件可靠性是指在指定的环境中指定的时间段内计算机程序无错误运行的概率。</p>
-</li>
-<li><p>Describe statistical quality assurance?<br>描述统计质量保证？<br>Answer (Section 21.6):</p>
-</li>
-</ol>
-<ul>
-<li>Information about </li>
-<li>software defects is collected and categorized</li>
-<li>Each defect is traced back to its cause</li>
-<li>Using the Pareto principle (80% of the defects can be traced to 20% of the causes) isolate the “vital few” defect causes</li>
-<li>Move to correct the problems that caused the defects in the “vital few”</li>
-<li>相关信息</li>
-<li>收集软件缺陷并进行分类</li>
-<li>每个缺陷都可以追溯到其原因</li>
-<li>使用帕累托原理（可以将80％的缺陷追溯到20％的原因），将“很少的”缺陷原因隔离出来</li>
-<li>纠正导致“少数几个”缺陷的问题<br>
-
-</li>
-</ul>
-<h2 id="CHAPTER-22-Software-Testing-Strategies-软件测试策略"><a href="#CHAPTER-22-Software-Testing-Strategies-软件测试策略" class="headerlink" title="CHAPTER 22 Software Testing Strategies 软件测试策略"></a><span id="22">CHAPTER 22 Software Testing Strategies 软件测试策略</span></h2><ol>
-<li><p>Why is regression testing an important part of any integration testing procedure?<br>为什么回归测试是任何集成测试程序的重要组成部分？<br>Answer (Section 22.3.2):<br>The goal of integration testing is to make sure that independent modules that work correctly on their own do not interfere with one another when added to the same program (unforeseen side effects are always possible). Regression testing checks for defects propagated to other modules by changes made to an existing program.<br>集成测试的目的是确保将独立正常工作的独立模块添加到同一程序时不会互相干扰（总是可能发生无法预料的副作用）。回归测试检查通过对现有程序所做的更改传播到其他模块的缺陷。</p>
-</li>
-<li><p>Describe object-oriented unit testing.<br>描述面向对象的单元测试。<br>Answer (Section 22.4.1):<br>Class testing for OO software is equivalent to unit testing for conventional software. The focus throughout is on designing and testing appropriate sequences of operations to exercise all class states. It makes little sense to test operations or algorithms individually for classes.<br>面向对象软件的类测试等效于常规软件的单元测试。整个过程的重点是设计和测试适当的操作顺序以行使所有课堂状态。单独测试类的操作或算法几乎没有意义。</p>
-</li>
-<li><p>List four types of systems tests.<br>列出四种类型的系统测试。<br>Answer (Section 22.8):</p>
-</li>
-</ol>
-<ul>
-<li>Recovery testing</li>
-<li>Security testing</li>
-<li>Stress testing</li>
-<li>Performance testing</li>
-<li>恢复测试</li>
-<li>安全测试</li>
-<li>压力测试</li>
-<li>性能测试<br>
-</li>
-</ul>
-<ol start="4">
-<li>What are the key differences between validation testing goals and acceptance testing goals?<br>验证测试目标和验收测试目标之间的主要区别是什么？<br>Answer (Section 22.7):<br>In validation testing, the test team seeks to ensure that each software function or performance characteristic conforms to its specification. In acceptance testing, the test team needs to ensure that the software works correctly for the intended user in his or her normal work environment.<br>在验证测试中，测试团队试图确保每个软件功能或性能特征均符合其规格。在验收测试中，测试团队需要确保软件可以在目标用户的正常工作环境中正常工作。</li>
-</ol>
-<h2 id="CHAPTER-23-Testing-Conventional-Applications-测试传统应用软件"><a href="#CHAPTER-23-Testing-Conventional-Applications-测试传统应用软件" class="headerlink" title="CHAPTER 23 Testing Conventional Applications 测试传统应用软件"></a><span id="23">CHAPTER 23 Testing Conventional Applications 测试传统应用软件</span></h2><ol>
-<li>What are the attributes of a good software test?<br>好的软件测试的特征是什么？<br>Answer (Section 23.1):</li>
-</ol>
-<ul>
-<li>Has a high probability of finding an error</li>
-<li>Not redundant</li>
-<li>Should be capable of uncovering a whole class of errors</li>
-<li>Should not be too simple or too complex</li>
-<li>发现错误的可能性很高</li>
-<li>不多余</li>
-<li>应该能够发现一整类错误</li>
-<li>不应太简单或太复杂<br>
-</li>
-</ul>
-<ol start="2">
-<li><p>Describe the differences between black-box testing and white-box testing.<br>描述黑盒测试和白盒测试之间的区别。<br>Answer (Section 23.2):<br>Black-box testing involves testing the functionality of a software component without knowing the details of its internal logic. White-box testing involves testing the independent logic paths with full implementation knowledge.<br>黑盒测试涉及在不知道其内部逻辑细节的情况下测试软件组件的功能。白盒测试涉及使用完整的实现知识来测试独立的逻辑路径。</p>
-</li>
-<li><p>What is equivalence partitioning as it applies to software testing?<br>什么是等效分区，因为它适用于软件测试？<br>Answer (Section 23.2):<br>A black-box testing technique in which the input domain is divided into classes of equivalent data items. Test cases are derived from combinations of elements from each equivalence class. Exhaustive testing of all input domain values is not necessary.<br>一种黑盒测试技术，其中将输入域分为等效数据项的类别。测试用例来自每个等效类的元素组合。不需要对所有输入域值进行详尽的测试。</p>
-</li>
-<li><p>Describe three control structure testing strategies.<br>描述三种控制结构测试策略。<br>Answer (Section 23.5):</p>
-</li>
-</ol>
-<ul>
-<li><p>Condition or branch testing -uses test cases that exercise every decision statement in the program.</p>
-</li>
-<li><p>Data flow testing - selects test paths (definition use chains) according to the locations of variable definitions and uses in the program </p>
-</li>
-<li><p>Loop testing -tests focus on the validity the repetition constructs (making sure that loops start and stop when they are supposed to) </p>
-</li>
-<li><p>条件或分支测试-使用执行该程序中每个决策语句的测试用例。</p>
-</li>
-<li><p>数据流测试-根据变量定义和程序中使用的位置选择测试路径（定义使用链）</p>
-</li>
-<li><p>循环测试-测试着眼于重复构造的有效性（确保循环在应有的情况下开始和停止）</p>
-</li>
-</ul>
-<h2 id="CHAPTER-24-Testing-Object-Oriented-Applications-测试面向对象应用软件"><a href="#CHAPTER-24-Testing-Object-Oriented-Applications-测试面向对象应用软件" class="headerlink" title="CHAPTER 24 Testing Object-Oriented Applications 测试面向对象应用软件"></a><span id="24">CHAPTER 24 Testing Object-Oriented Applications 测试面向对象应用软件</span></h2><ol>
-<li><p>How does unit testing differ for object-oriented testing as compared to conventional software unit testing?<br>与传统的软件单元测试相比，面向对象测试的单元测试有何不同？<br>Answer (Section 24.3.1):<br>You can no longer test a single operation in isolation (the conventional view of unit testing) but rather, as part of a class. Rather than testing an individual module, the smallest testable unit is the encapsulated class. Because a class can contain a number of different operations and a particular operation may exist as part of a number of different classes, the meaning of unit testing changes dramatically.<br>您不再可以孤立地测试单个操作（常规的单元测试视图），而可以作为类的一部分。最小的可测试单元不是测试单个模块，而是封装的类。因为一个类可以包含许多不同的操作，并且特定的操作可能作为许多不同的类的一部分而存在，所以单元测试的含义发生了巨大变化。</p>
-</li>
-<li><p>What is scenario-based testing?<br>什么是基于方案的测试？<br>Answer (Section 24.4.4):</p>
-</li>
-</ol>
-<p>The user tasks described in the use-cases are used to construct the test cases. It is used to uncover errors that occur when actors interact with the software (focus is on user behavior, not product behavior). Generally it is better to spend more time reviewing the use cases as they are created than spending more time on testing.<br>用例中描述的用户任务用于构造测试用例。它用于发现参与者与软件交互时发生的错误（重点是用户行为，而不是产品行为）。通常，与在测试上花费更多时间相比，花更多的时间在用例创建时进行检查是更好的选择。</p>
-<ol start="3">
-<li>Describe the how test cases are derived from behavior models to facilitate interclass testing?<br>描述如何从行为模型派生测试用例以促进类间测试？<br>Answer (Section 24.6.2):</li>
-</ol>
-<ul>
-<li>Test cases must cover all states in the state transition diagram </li>
-<li>Breadth first traversal of the state model can be used (test one transition at a time and only make use of previously tested transitions when testing a new transition)</li>
-<li>Test cases can also be derived to ensure that all behaviors for the class have been adequately exercised </li>
-<li>测试用例必须涵盖状态转换图中的所有状态</li>
-<li>可以使用状态模型的广度优先遍历（一次测试一个转换，并且在测试新转换时仅使用先前测试的转换）</li>
-<li>还可以派生测试用例，以确保已充分行使班级的所有行为</li>
-</ul>
-<ol start="4">
-<li>Describe three partitioning strategies that can be used when performing class level testing for OO systems.<br>描述在为OO系统执行类级别测试时可以使用的三种分区策略。<br>Answer (Section 24.5.2):</li>
-</ol>
-<ul>
-<li><p>State-based partitioning - tests designed so that operations that cause state changes are tested separately from those that do not</p>
-</li>
-<li><p>Attribute-based partitioning - for each class attribute, operations are classified according to those that use the attribute, those that modify it, and those that do not use or modify the attribute</p>
-</li>
-<li><p>Category-based partitioning - operations are categorized according to the function performed: initialization, computation, query, or termination</p>
-</li>
-<li><p>基于状态的分区-设计测试，以使引起状态更改的操作与不进行状态更改的操作分开进行测试</p>
-</li>
-<li><p>基于属性的分区-对于每个类属性，根据使用该属性的操作，修改该属性的操作以及不使用或修改该属性的操作对操作进行分类</p>
-</li>
-<li><p>基于类别的分区-根据执行的功能对操作进行分类：初始化，计算，查询或终止</p>
-</li>
-</ul>
-<h2 id="CHAPTER-27-Security-Engineering-安全性工程"><a href="#CHAPTER-27-Security-Engineering-安全性工程" class="headerlink" title="CHAPTER 27 Security Engineering 安全性工程"></a><span id="27">CHAPTER 27 Security Engineering 安全性工程</span></h2><ol>
-<li>Which questions need to be answered in user-centered requirements elicitation?<br>在以用户为中心的需求启发中需要回答哪些问题？<br>Answer (Section 27.3.1):</li>
-</ol>
-<ul>
-<li>What are the users’ security software needs?</li>
-<li>How can a secure architecture be designed so it accommodates good user interface design?</li>
-<li>How can satisfying user experience be designed so that it is secure?</li>
-<li>用户的安全软件有哪些需求？</li>
-<li>如何设计安全的体系结构以适应良好的用户界面设计？</li>
-<li>如何设计令人满意的用户体验以确保安全？<br>
-</li>
-</ul>
-<ol start="2">
-<li>What are the elements of a security case?<br>安全案例的要素是什么？<br>Answer (Section 27.4.1):</li>
-</ol>
-<ul>
-<li>Security claims</li>
-<li>Arguments using evidence to link claims and assumptions</li>
-<li>Body of evidence supporting the arguments</li>
-<li>担保要求</li>
-<li>使用证据将主张和假设联系起来的论点</li>
-<li>支持论点的证据<br>
-</li>
-</ul>
-<ol start="3">
-<li><p>What is an incidence response plan?<br>什么是突发事件应对计划？<br>Answer (Section 27.6):<br>An incidence response plan spells out the actions to be carried out by each of the system’s stakeholders in response to specific security threats.<br>突发事件响应计划阐明了系统的每个利益相关者针对特定安全威胁要采取的措施。</p>
-</li>
-<li><p>Describe steps needs to create a threat model.<br>描述创建威胁模型所需的步骤。<br>Answer (Section 27.5):</p>
-</li>
-</ol>
-<ul>
-<li>Identify assets</li>
-<li>Create architectural overview</li>
-<li>Decompose application</li>
-<li>Identify threats</li>
-<li>Document threats</li>
-<li>Rate threats</li>
-<li>识别资产</li>
-<li>创建架构概述</li>
-<li>分解应用程序</li>
-<li>识别威胁</li>
-<li>文件威胁</li>
-<li>评价威胁<br>
-
-</li>
-</ul>
-<h2 id="CHAPTER-29-Software-Conﬁguration-Management-软件配置管理"><a href="#CHAPTER-29-Software-Conﬁguration-Management-软件配置管理" class="headerlink" title="CHAPTER 29 Software Conﬁguration Management 软件配置管理"></a><span id="29">CHAPTER 29 Software Conﬁguration Management 软件配置管理</span></h2><ol>
-<li><p>List the 3 broad categories of information that make up the software configuration.<br>列出构成软件配置的3大类信息。<br>Answer (Section 29.1):<br>Computer programs (source code and executables), documentation (technical and user), data (internal and external to programs)<br>计算机程序（源代码和可执行文件），文档（技术和用户），数据（程序的内部和外部）</p>
-</li>
-<li><p>What is a software configuration audit?<br>什么是软件配置审核？<br>Answer (Section 29.3.5):<br>Once a change has been made to a software configuration item and an FTR has been conducted, the software quality team conducts its own review to ensure that software process and standards have been followed (including updating all affected documents and any other affected software configuration items).<br>一旦对软件配置项进行了更改并进行了FTR，则软件质量团队将进行自己的审查，以确保遵循了软件流程和标准（包括更新所有受影响的文档和任何其他受影响的软件配置项） 。</p>
-</li>
-<li><p>What is content management?<br>什么是内容管理？<br>Answer (Section 29.4.3):<br>Content management establishes a process that acquires existing content, structures it to be presented to an end-user, and provides for display, to the client-side environment.<br>内容管理建立了一个过程，该过程获取现有内容，对其进行结构化以呈现给最终用户，并提供显示给客户端环境。</p>
-</li>
-<li><p>Describe the change control process for a modern software development project.<br>描述现代软件开发项目的变更控制过程。<br>Answer (Section 29.3.3):<br>A change request is submitted for evaluation for a change report is submitted to the change control authority (CCA). The CCA makes the final determination as to the status and priority of the change. An engineering change order (ECO) is generated for each approved change. Items to be changes are checked out of the project database subject to its access control parameters. The modified object is subjected to SQA procedures and returned to the project database. Version control procedures are followed to produce the next version of the software. Synchronization control is used to make sure that parallel changes made by different people do not overwrite one another.<br>提交变更请求以进行评估，将变更报告提交给变更控制机构（CCA）。CCA最终确定更改的状态和优先级。将为每个批准的变更生成一个工程变更单（ECO）。根据其访问控制参数，将要更改的项目从项目数据库中检出。修改后的对象要经过SQA程序，然后返回到项目数据库。遵循版本控制过程以产生软件的下一版本。同步控制用于确保不同人员进行的并行更改不会相互覆盖。</p>
-</li>
-<li><p>How does software configuration management differ for Web and Mobile Apps?<br>Web和移动应用程序的软件配置管理有何不同？<br>Answer (Section 29.4)<br>The “code and go” philosophy dominates App development. So SCM for Apps must be an agile process. Documentation and review of changes is done on an as needed basis depending on the risk associated with the work products being changed.<br>“编写即用”的哲学主导着App开发。因此，SCM for Apps必须是一个敏捷的过程。根据需要，根据与更改工作产品相关的风险，对更改进行记录和审查。</p>
-</li>
-</ol>
 ]]></content>
       <categories>
-        <category>软件工程</category>
+        <category>操作系统</category>
       </categories>
       <tags>
         <tag>总结</tag>
-        <tag>软件工程</tag>
+        <tag>操作系统</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>SwiftUI2.0 ScrollViewReader用法</title>
-    <url>/2021/01/12/SwiftUI2-0-ScrollViewReader%E7%94%A8%E6%B3%95/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>可视化程序设计1-6章复习</title>
@@ -870,44 +617,297 @@
       </tags>
   </entry>
   <entry>
-    <title>操作系统概念第2章 — 操作系统结构</title>
-    <url>/2019/11/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%E7%AC%AC2%E7%AB%A0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<blockquote>
-<p>操作系统概念第2章：操作系统结构 Operating System Structures<br>基于 <em>Operating System Concepts(9th)</em>  </p>
+    <title>可视化程序设计19-29章复习</title>
+    <url>/2019/12/15/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A119-29%E7%AB%A0%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<hr>
+<blockquote>
+<p>可视化程序设计8-15章问答题（中文影印版15-21章）<br>基于 <em>Software Engineering A PRACTITIONER’S APPROACH 8th</em>     <em>软件工程：实践者的研究方法</em>     </p>
 </blockquote>
+<hr>
+<ul>
+<li><strong>PART 3 质量管理 QUALITY MANAGEMENT</strong>   </li>
+</ul>
+<ol>
+<li><a href="#19">CH19 质量概念</a></li>
+<li><a href="#21">CH21 软件质量保证</a></li>
+<li><a href="#22">CH22 软件测试策略</a></li>
+<li><a href="#23">CH23 测试传统的应用软件</a></li>
+<li><a href="#24">CH24 测试面向对象的应用</a></li>
+<li><a href="#27">CH27 安全性工程</a></li>
+<li><a href="#29">CH29 软件配置管理</a></li>
+</ol>
+<hr>
 <a id="more"></a>
 
-<h2 id="操作系统服务"><a href="#操作系统服务" class="headerlink" title="操作系统服务"></a>操作系统服务</h2><ul>
-<li>用户界面 User Interface <ul>
-<li>命令行界面 Command-line Interface，CLI</li>
-<li>Batch界面</li>
-<li>图形用户界面 Graphical User Interface，GUI</li>
-</ul>
-</li>
-<li>程序执行 Program Execution<ul>
-<li>操作系统可以夹在程序到内存（memory）中并执行程序</li>
-</ul>
-</li>
-<li>IO操作 I/O Operation</li>
-<li>文件系统操作 File-system manipulation</li>
-<li>通信 Communications</li>
-<li>错误检测 Error detection</li>
-</ul>
+<h2 id="CHAPTER-19-Quality-Concepts-质量概念"><a href="#CHAPTER-19-Quality-Concepts-质量概念" class="headerlink" title="CHAPTER 19 Quality Concepts 质量概念"></a><span id="19">CHAPTER 19 Quality Concepts 质量概念</span></h2><ol>
+<li>What are three dimensions of software quality?<br>软件质量的三个方面是什么？<br>Answer (Section 19.2):</li>
+</ol>
 <ul>
-<li>下述的服务不是为了帮助用户，而是为了使操作系统的效率更高<ul>
-<li>资源分配 Resource Allocation</li>
-<li>统计 Accounting</li>
-<li>保护和安全 Protection and security</li>
-</ul>
+<li>An effective software process establishes the infrastructure that supports any effort at building a high quality software product.</li>
+<li>A useful product delivers the content, functions, and features that the end-user desires, but as important, it delivers these assets in a reliable, error free way.</li>
+<li>By adding value for both the producer and user of a software product, high quality software provides benefits for the software organization and the end-user community.</li>
+<li>有效的软件流程可以建立基础架构，以支持构建高质量软件产品的所有工作。</li>
+<li>有用的产品可以提供最终用户所需的内容，功能和特性，但同样重要的是，它可以可靠，无错误的方式提供这些资产。</li>
+<li>通过为软件产品的生产者和用户增加价值，高质量的软件为软件组织和最终用户社区带来了好处。<br>
 </li>
 </ul>
+<ol start="2">
+<li>Describe the costs associated with software quality work?<br>描述与软件质量工作相关的成本？<br>Answer (Section 19.3.2):</li>
+</ol>
+<ul>
+<li><p>Prevention costs - quality planning, formal technical reviews, test equipment, training</p>
+</li>
+<li><p>Appraisal costs - in-process and inter-process inspection, equipment calibration and maintenance, testing</p>
+</li>
+<li><p>Internal failure costs - rework, repair, failure mode analysis</p>
+</li>
+<li><p>External failure costs - complaint resolution, product return and replacement, help line support, warranty work</p>
+</li>
+<li><p>预防费用-质量计划，正式技术审查，测试设备，培训</p>
+</li>
+<li><p>评估费用-过程中和过程间检查，设备校准和维护，测试</p>
+</li>
+<li><p>内部故障成本-返工，维修，故障模式分析</p>
+</li>
+<li><p>外部故障成本-解决投诉，产品退回和更换，热线支持，保修工作</p>
+<br>
+</li>
+</ul>
+<ol start="3">
+<li>What practices should software engineers follow to enhance the quality of software produced by their team?<br>软件工程师应遵循哪些实践来提高其团队生产的软件的质量？<br>Answer (Section 19.4):</li>
+</ol>
+<ul>
+<li>Software quality is the result of good project management and solid engineering practice</li>
+<li>To build high quality software you must understand the problem to be solved and be capable of creating a quality design the conforms to the problem requirements</li>
+<li>Eliminating architectural flaws during design can improve quality</li>
+<li>软件质量是良好的项目管理和扎实的工程实践的结果</li>
+<li>要构建高质量的软件，您必须了解要解决的问题并能够创建符合问题要求的质量设计</li>
+<li>在设计过程中消除架构缺陷可以提高质量<br>
+</li>
+</ul>
+<ol start="4">
+<li>Discuss how poor management decisions can impact software quality?<br>讨论糟糕的管理决策如何影响软件质量？<br>Answer (Section 19.3.6):</li>
+</ol>
+<ul>
+<li>Estimation decisions – irrational delivery date estimates cause teams to take short-cuts that can lead to reduced product quality </li>
+<li>Scheduling decisions – failing to pay attention to task dependencies when creating the project schedule may force the project team to test modules without their subcomponents and quality may suffer</li>
+<li>Risk-oriented decisions – reacting to each crisis as it arises rather than building in mechanisms to monitor risks and having established contingency plans  may result in products having reduced quality</li>
+<li>估算决策–不合理的交货日期估算会导致团队采取捷径，从而导致产品质量下降</li>
+<li>计划决策–在创建项目进度表时未注意任务依赖性可能会迫使项目团队测试没有子组件的模块，从而可能会降低质量</li>
+<li>以风险为导向的决策–对每次危机进行应对，而不是建立监视风险的机制，并且已建立应急计划可能会导致产品质量下降<br>
+
+</li>
+</ul>
+<h2 id="CHAPTER-21-Software-Quality-Assurance-软件质量保证"><a href="#CHAPTER-21-Software-Quality-Assurance-软件质量保证" class="headerlink" title="CHAPTER 21 Software Quality Assurance 软件质量保证"></a><span id="21">CHAPTER 21 Software Quality Assurance 软件质量保证</span></h2><ol>
+<li>List the tasks performed by the SQA group.<br>列出SQA组执行的任务。<br>Answer (Section 21.4.1):</li>
+</ol>
+<ul>
+<li>Prepare SQA plan for the project.</li>
+<li>Participate in the development of the project’s software process description.</li>
+<li>Review software engineering activities to verify compliance with the defined software process.</li>
+<li>Audit designated software work products to verify compliance with those defined as part of the software process.</li>
+<li>Ensure that any deviations in software or work products are documented and handled according to a documented procedure.</li>
+<li>Record any evidence of noncompliance and reports them to management</li>
+<li>为项目准备SQA计划。</li>
+<li>参与开发项目的软件过程描述。</li>
+<li>审查软件工程活动，以验证是否符合定义的软件过程。</li>
+<li>审核指定的软件工作产品，以验证是否符合在软件过程中定义的产品。</li>
+<li>确保按照书面程序记录和处理软件或工作产品中的任何偏差。</li>
+<li>记录任何不合规的证据并将其报告给管理层<br>
+</li>
+</ul>
+<ol start="2">
+<li>What are the goals for the project SQA activities?<br>项目SQA活动的目标是什么？<br>Answer (Section 21.4.2):</li>
+</ol>
+<ul>
+<li>Requirements quality</li>
+<li>Design quality</li>
+<li>Code quality</li>
+<li>Quality control effectiveness</li>
+<li>需求质量</li>
+<li>设计品质</li>
+<li>代码质量</li>
+<li>质量控制有效性<br>
+</li>
+</ul>
+<ol start="3">
+<li><p>What is meant by the term software reliability?<br>软件可靠性一词是什么意思？<br>Answer (Section 21.7):<br>Software reliability is the probability of error free operation of a computer program in a specified environment for a specified time period.<br>软件可靠性是指在指定的环境中指定的时间段内计算机程序无错误运行的概率。</p>
+</li>
+<li><p>Describe statistical quality assurance?<br>描述统计质量保证？<br>Answer (Section 21.6):</p>
+</li>
+</ol>
+<ul>
+<li>Information about </li>
+<li>software defects is collected and categorized</li>
+<li>Each defect is traced back to its cause</li>
+<li>Using the Pareto principle (80% of the defects can be traced to 20% of the causes) isolate the “vital few” defect causes</li>
+<li>Move to correct the problems that caused the defects in the “vital few”</li>
+<li>相关信息</li>
+<li>收集软件缺陷并进行分类</li>
+<li>每个缺陷都可以追溯到其原因</li>
+<li>使用帕累托原理（可以将80％的缺陷追溯到20％的原因），将“很少的”缺陷原因隔离出来</li>
+<li>纠正导致“少数几个”缺陷的问题<br>
+
+</li>
+</ul>
+<h2 id="CHAPTER-22-Software-Testing-Strategies-软件测试策略"><a href="#CHAPTER-22-Software-Testing-Strategies-软件测试策略" class="headerlink" title="CHAPTER 22 Software Testing Strategies 软件测试策略"></a><span id="22">CHAPTER 22 Software Testing Strategies 软件测试策略</span></h2><ol>
+<li><p>Why is regression testing an important part of any integration testing procedure?<br>为什么回归测试是任何集成测试程序的重要组成部分？<br>Answer (Section 22.3.2):<br>The goal of integration testing is to make sure that independent modules that work correctly on their own do not interfere with one another when added to the same program (unforeseen side effects are always possible). Regression testing checks for defects propagated to other modules by changes made to an existing program.<br>集成测试的目的是确保将独立正常工作的独立模块添加到同一程序时不会互相干扰（总是可能发生无法预料的副作用）。回归测试检查通过对现有程序所做的更改传播到其他模块的缺陷。</p>
+</li>
+<li><p>Describe object-oriented unit testing.<br>描述面向对象的单元测试。<br>Answer (Section 22.4.1):<br>Class testing for OO software is equivalent to unit testing for conventional software. The focus throughout is on designing and testing appropriate sequences of operations to exercise all class states. It makes little sense to test operations or algorithms individually for classes.<br>面向对象软件的类测试等效于常规软件的单元测试。整个过程的重点是设计和测试适当的操作顺序以行使所有课堂状态。单独测试类的操作或算法几乎没有意义。</p>
+</li>
+<li><p>List four types of systems tests.<br>列出四种类型的系统测试。<br>Answer (Section 22.8):</p>
+</li>
+</ol>
+<ul>
+<li>Recovery testing</li>
+<li>Security testing</li>
+<li>Stress testing</li>
+<li>Performance testing</li>
+<li>恢复测试</li>
+<li>安全测试</li>
+<li>压力测试</li>
+<li>性能测试<br>
+</li>
+</ul>
+<ol start="4">
+<li>What are the key differences between validation testing goals and acceptance testing goals?<br>验证测试目标和验收测试目标之间的主要区别是什么？<br>Answer (Section 22.7):<br>In validation testing, the test team seeks to ensure that each software function or performance characteristic conforms to its specification. In acceptance testing, the test team needs to ensure that the software works correctly for the intended user in his or her normal work environment.<br>在验证测试中，测试团队试图确保每个软件功能或性能特征均符合其规格。在验收测试中，测试团队需要确保软件可以在目标用户的正常工作环境中正常工作。</li>
+</ol>
+<h2 id="CHAPTER-23-Testing-Conventional-Applications-测试传统应用软件"><a href="#CHAPTER-23-Testing-Conventional-Applications-测试传统应用软件" class="headerlink" title="CHAPTER 23 Testing Conventional Applications 测试传统应用软件"></a><span id="23">CHAPTER 23 Testing Conventional Applications 测试传统应用软件</span></h2><ol>
+<li>What are the attributes of a good software test?<br>好的软件测试的特征是什么？<br>Answer (Section 23.1):</li>
+</ol>
+<ul>
+<li>Has a high probability of finding an error</li>
+<li>Not redundant</li>
+<li>Should be capable of uncovering a whole class of errors</li>
+<li>Should not be too simple or too complex</li>
+<li>发现错误的可能性很高</li>
+<li>不多余</li>
+<li>应该能够发现一整类错误</li>
+<li>不应太简单或太复杂<br>
+</li>
+</ul>
+<ol start="2">
+<li><p>Describe the differences between black-box testing and white-box testing.<br>描述黑盒测试和白盒测试之间的区别。<br>Answer (Section 23.2):<br>Black-box testing involves testing the functionality of a software component without knowing the details of its internal logic. White-box testing involves testing the independent logic paths with full implementation knowledge.<br>黑盒测试涉及在不知道其内部逻辑细节的情况下测试软件组件的功能。白盒测试涉及使用完整的实现知识来测试独立的逻辑路径。</p>
+</li>
+<li><p>What is equivalence partitioning as it applies to software testing?<br>什么是等效分区，因为它适用于软件测试？<br>Answer (Section 23.2):<br>A black-box testing technique in which the input domain is divided into classes of equivalent data items. Test cases are derived from combinations of elements from each equivalence class. Exhaustive testing of all input domain values is not necessary.<br>一种黑盒测试技术，其中将输入域分为等效数据项的类别。测试用例来自每个等效类的元素组合。不需要对所有输入域值进行详尽的测试。</p>
+</li>
+<li><p>Describe three control structure testing strategies.<br>描述三种控制结构测试策略。<br>Answer (Section 23.5):</p>
+</li>
+</ol>
+<ul>
+<li><p>Condition or branch testing -uses test cases that exercise every decision statement in the program.</p>
+</li>
+<li><p>Data flow testing - selects test paths (definition use chains) according to the locations of variable definitions and uses in the program </p>
+</li>
+<li><p>Loop testing -tests focus on the validity the repetition constructs (making sure that loops start and stop when they are supposed to) </p>
+</li>
+<li><p>条件或分支测试-使用执行该程序中每个决策语句的测试用例。</p>
+</li>
+<li><p>数据流测试-根据变量定义和程序中使用的位置选择测试路径（定义使用链）</p>
+</li>
+<li><p>循环测试-测试着眼于重复构造的有效性（确保循环在应有的情况下开始和停止）</p>
+</li>
+</ul>
+<h2 id="CHAPTER-24-Testing-Object-Oriented-Applications-测试面向对象应用软件"><a href="#CHAPTER-24-Testing-Object-Oriented-Applications-测试面向对象应用软件" class="headerlink" title="CHAPTER 24 Testing Object-Oriented Applications 测试面向对象应用软件"></a><span id="24">CHAPTER 24 Testing Object-Oriented Applications 测试面向对象应用软件</span></h2><ol>
+<li><p>How does unit testing differ for object-oriented testing as compared to conventional software unit testing?<br>与传统的软件单元测试相比，面向对象测试的单元测试有何不同？<br>Answer (Section 24.3.1):<br>You can no longer test a single operation in isolation (the conventional view of unit testing) but rather, as part of a class. Rather than testing an individual module, the smallest testable unit is the encapsulated class. Because a class can contain a number of different operations and a particular operation may exist as part of a number of different classes, the meaning of unit testing changes dramatically.<br>您不再可以孤立地测试单个操作（常规的单元测试视图），而可以作为类的一部分。最小的可测试单元不是测试单个模块，而是封装的类。因为一个类可以包含许多不同的操作，并且特定的操作可能作为许多不同的类的一部分而存在，所以单元测试的含义发生了巨大变化。</p>
+</li>
+<li><p>What is scenario-based testing?<br>什么是基于方案的测试？<br>Answer (Section 24.4.4):</p>
+</li>
+</ol>
+<p>The user tasks described in the use-cases are used to construct the test cases. It is used to uncover errors that occur when actors interact with the software (focus is on user behavior, not product behavior). Generally it is better to spend more time reviewing the use cases as they are created than spending more time on testing.<br>用例中描述的用户任务用于构造测试用例。它用于发现参与者与软件交互时发生的错误（重点是用户行为，而不是产品行为）。通常，与在测试上花费更多时间相比，花更多的时间在用例创建时进行检查是更好的选择。</p>
+<ol start="3">
+<li>Describe the how test cases are derived from behavior models to facilitate interclass testing?<br>描述如何从行为模型派生测试用例以促进类间测试？<br>Answer (Section 24.6.2):</li>
+</ol>
+<ul>
+<li>Test cases must cover all states in the state transition diagram </li>
+<li>Breadth first traversal of the state model can be used (test one transition at a time and only make use of previously tested transitions when testing a new transition)</li>
+<li>Test cases can also be derived to ensure that all behaviors for the class have been adequately exercised </li>
+<li>测试用例必须涵盖状态转换图中的所有状态</li>
+<li>可以使用状态模型的广度优先遍历（一次测试一个转换，并且在测试新转换时仅使用先前测试的转换）</li>
+<li>还可以派生测试用例，以确保已充分行使班级的所有行为</li>
+</ul>
+<ol start="4">
+<li>Describe three partitioning strategies that can be used when performing class level testing for OO systems.<br>描述在为OO系统执行类级别测试时可以使用的三种分区策略。<br>Answer (Section 24.5.2):</li>
+</ol>
+<ul>
+<li><p>State-based partitioning - tests designed so that operations that cause state changes are tested separately from those that do not</p>
+</li>
+<li><p>Attribute-based partitioning - for each class attribute, operations are classified according to those that use the attribute, those that modify it, and those that do not use or modify the attribute</p>
+</li>
+<li><p>Category-based partitioning - operations are categorized according to the function performed: initialization, computation, query, or termination</p>
+</li>
+<li><p>基于状态的分区-设计测试，以使引起状态更改的操作与不进行状态更改的操作分开进行测试</p>
+</li>
+<li><p>基于属性的分区-对于每个类属性，根据使用该属性的操作，修改该属性的操作以及不使用或修改该属性的操作对操作进行分类</p>
+</li>
+<li><p>基于类别的分区-根据执行的功能对操作进行分类：初始化，计算，查询或终止</p>
+</li>
+</ul>
+<h2 id="CHAPTER-27-Security-Engineering-安全性工程"><a href="#CHAPTER-27-Security-Engineering-安全性工程" class="headerlink" title="CHAPTER 27 Security Engineering 安全性工程"></a><span id="27">CHAPTER 27 Security Engineering 安全性工程</span></h2><ol>
+<li>Which questions need to be answered in user-centered requirements elicitation?<br>在以用户为中心的需求启发中需要回答哪些问题？<br>Answer (Section 27.3.1):</li>
+</ol>
+<ul>
+<li>What are the users’ security software needs?</li>
+<li>How can a secure architecture be designed so it accommodates good user interface design?</li>
+<li>How can satisfying user experience be designed so that it is secure?</li>
+<li>用户的安全软件有哪些需求？</li>
+<li>如何设计安全的体系结构以适应良好的用户界面设计？</li>
+<li>如何设计令人满意的用户体验以确保安全？<br>
+</li>
+</ul>
+<ol start="2">
+<li>What are the elements of a security case?<br>安全案例的要素是什么？<br>Answer (Section 27.4.1):</li>
+</ol>
+<ul>
+<li>Security claims</li>
+<li>Arguments using evidence to link claims and assumptions</li>
+<li>Body of evidence supporting the arguments</li>
+<li>担保要求</li>
+<li>使用证据将主张和假设联系起来的论点</li>
+<li>支持论点的证据<br>
+</li>
+</ul>
+<ol start="3">
+<li><p>What is an incidence response plan?<br>什么是突发事件应对计划？<br>Answer (Section 27.6):<br>An incidence response plan spells out the actions to be carried out by each of the system’s stakeholders in response to specific security threats.<br>突发事件响应计划阐明了系统的每个利益相关者针对特定安全威胁要采取的措施。</p>
+</li>
+<li><p>Describe steps needs to create a threat model.<br>描述创建威胁模型所需的步骤。<br>Answer (Section 27.5):</p>
+</li>
+</ol>
+<ul>
+<li>Identify assets</li>
+<li>Create architectural overview</li>
+<li>Decompose application</li>
+<li>Identify threats</li>
+<li>Document threats</li>
+<li>Rate threats</li>
+<li>识别资产</li>
+<li>创建架构概述</li>
+<li>分解应用程序</li>
+<li>识别威胁</li>
+<li>文件威胁</li>
+<li>评价威胁<br>
+
+</li>
+</ul>
+<h2 id="CHAPTER-29-Software-Conﬁguration-Management-软件配置管理"><a href="#CHAPTER-29-Software-Conﬁguration-Management-软件配置管理" class="headerlink" title="CHAPTER 29 Software Conﬁguration Management 软件配置管理"></a><span id="29">CHAPTER 29 Software Conﬁguration Management 软件配置管理</span></h2><ol>
+<li><p>List the 3 broad categories of information that make up the software configuration.<br>列出构成软件配置的3大类信息。<br>Answer (Section 29.1):<br>Computer programs (source code and executables), documentation (technical and user), data (internal and external to programs)<br>计算机程序（源代码和可执行文件），文档（技术和用户），数据（程序的内部和外部）</p>
+</li>
+<li><p>What is a software configuration audit?<br>什么是软件配置审核？<br>Answer (Section 29.3.5):<br>Once a change has been made to a software configuration item and an FTR has been conducted, the software quality team conducts its own review to ensure that software process and standards have been followed (including updating all affected documents and any other affected software configuration items).<br>一旦对软件配置项进行了更改并进行了FTR，则软件质量团队将进行自己的审查，以确保遵循了软件流程和标准（包括更新所有受影响的文档和任何其他受影响的软件配置项） 。</p>
+</li>
+<li><p>What is content management?<br>什么是内容管理？<br>Answer (Section 29.4.3):<br>Content management establishes a process that acquires existing content, structures it to be presented to an end-user, and provides for display, to the client-side environment.<br>内容管理建立了一个过程，该过程获取现有内容，对其进行结构化以呈现给最终用户，并提供显示给客户端环境。</p>
+</li>
+<li><p>Describe the change control process for a modern software development project.<br>描述现代软件开发项目的变更控制过程。<br>Answer (Section 29.3.3):<br>A change request is submitted for evaluation for a change report is submitted to the change control authority (CCA). The CCA makes the final determination as to the status and priority of the change. An engineering change order (ECO) is generated for each approved change. Items to be changes are checked out of the project database subject to its access control parameters. The modified object is subjected to SQA procedures and returned to the project database. Version control procedures are followed to produce the next version of the software. Synchronization control is used to make sure that parallel changes made by different people do not overwrite one another.<br>提交变更请求以进行评估，将变更报告提交给变更控制机构（CCA）。CCA最终确定更改的状态和优先级。将为每个批准的变更生成一个工程变更单（ECO）。根据其访问控制参数，将要更改的项目从项目数据库中检出。修改后的对象要经过SQA程序，然后返回到项目数据库。遵循版本控制过程以产生软件的下一版本。同步控制用于确保不同人员进行的并行更改不会相互覆盖。</p>
+</li>
+<li><p>How does software configuration management differ for Web and Mobile Apps?<br>Web和移动应用程序的软件配置管理有何不同？<br>Answer (Section 29.4)<br>The “code and go” philosophy dominates App development. So SCM for Apps must be an agile process. Documentation and review of changes is done on an as needed basis depending on the risk associated with the work products being changed.<br>“编写即用”的哲学主导着App开发。因此，SCM for Apps必须是一个敏捷的过程。根据需要，根据与更改工作产品相关的风险，对更改进行记录和审查。</p>
+</li>
+</ol>
 ]]></content>
       <categories>
-        <category>操作系统</category>
+        <category>软件工程</category>
       </categories>
       <tags>
         <tag>总结</tag>
-        <tag>操作系统</tag>
+        <tag>软件工程</tag>
       </tags>
   </entry>
   <entry>
